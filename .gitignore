@@ -1,0 +1,4 @@
+.env 
+node_modules/ 
+memory/ 
+data/mamaearth/unified_data.json 
