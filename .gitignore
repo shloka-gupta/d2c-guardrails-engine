@@ -2,3 +2,7 @@
 node_modules/ 
 memory/ 
 data/mamaearth/unified_data.json 
+data/ 
+memory/ 
+datasets/ 
+analysis/ 
