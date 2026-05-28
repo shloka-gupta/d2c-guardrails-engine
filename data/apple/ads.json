@@ -1,0 +1,95 @@
+{
+  "brand": "Apple",
+  "layer": "ads",
+  "period": "2023-Q3",
+  "data": [
+    {
+      "date": "2023-07-05",
+      "sku": "iPhone 14",
+      "spend_inr": 10000000,
+      "clicks": 120000,
+      "impressions": 20000000,
+      "roas": 3.5,
+      "ctr": 0.6,
+      "campaign_type": "Awareness",
+      "status": "active"
+    },
+    {
+      "date": "2023-07-10",
+      "sku": "MacBook Air M2",
+      "spend_inr": 5000000,
+      "clicks": 80000,
+      "impressions": 12000000,
+      "roas": 4.1,
+      "ctr": 0.7,
+      "campaign_type": "Conversion",
+      "status": "active"
+    },
+    {
+      "date": "2023-07-20",
+      "sku": "iOS 16",
+      "spend_inr": 2000000,
+      "clicks": 15000,
+      "impressions": 3000000,
+      "roas": 2.8,
+      "ctr": 0.5,
+      "campaign_type": "Feature Promotion",
+      "status": "active"
+    },
+    {
+      "date": "2023-08-01",
+      "sku": "iPhone 14",
+      "spend_inr": 9000000,
+      "clicks": 110000,
+      "impressions": 18000000,
+      "roas": 3.3,
+      "ctr": 0.6,
+      "campaign_type": "Sales",
+      "status": "active"
+    },
+    {
+      "date": "2023-08-15",
+      "sku": "AirPods Pro",
+      "spend_inr": 7000000,
+      "clicks": 90000,
+      "impressions": 15000000,
+      "roas": 4.5,
+      "ctr": 0.8,
+      "campaign_type": "Awareness",
+      "status": "active"
+    },
+    {
+      "date": "2023-08-25",
+      "sku": "Apple Security Plan",
+      "spend_inr": 1500000,
+      "clicks": 10000,
+      "impressions": 2500000,
+      "roas": 1.5,
+      "ctr": 0.4,
+      "campaign_type": "Crisis Management",
+      "status": "active"
+    },
+    {
+      "date": "2023-09-05",
+      "sku": "Apple Pay",
+      "spend_inr": 3000000,
+      "clicks": 15000,
+      "impressions": 4000000,
+      "roas": 2,
+      "ctr": 0.375,
+      "campaign_type": "Feature Promotion",
+      "status": "active"
+    },
+    {
+      "date": "2023-09-20",
+      "sku": "Sustainability Plan",
+      "spend_inr": 2500000,
+      "clicks": 20000,
+      "impressions": 5000000,
+      "roas": 3.7,
+      "ctr": 0.4,
+      "campaign_type": "CSR",
+      "status": "active"
+    }
+  ]
+}

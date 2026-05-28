@@ -1,0 +1,95 @@
+{
+  "brand": "Google",
+  "layer": "social",
+  "period": "2023-Q3",
+  "data": [
+    {
+      "date": "2023-07-05",
+      "platform": "Twitter",
+      "post_type": "image",
+      "topic": "Pixel7Launch",
+      "likes": 15000,
+      "comments": 1200,
+      "shares": 450,
+      "reach": 500000,
+      "sentiment": "positive"
+    },
+    {
+      "date": "2023-07-12",
+      "platform": "Instagram",
+      "post_type": "reel",
+      "topic": "GoogleAI",
+      "likes": 18000,
+      "comments": 800,
+      "shares": 600,
+      "reach": 750000,
+      "sentiment": "positive"
+    },
+    {
+      "date": "2023-07-19",
+      "platform": "Facebook",
+      "post_type": "video",
+      "topic": "GoogleWorkspace",
+      "likes": 12000,
+      "comments": 1000,
+      "shares": 300,
+      "reach": 400000,
+      "sentiment": "neutral"
+    },
+    {
+      "date": "2023-08-03",
+      "platform": "YouTube",
+      "post_type": "video",
+      "topic": "AndroidUpdate",
+      "likes": 25000,
+      "comments": 2000,
+      "shares": 900,
+      "reach": 1100000,
+      "sentiment": "positive"
+    },
+    {
+      "date": "2023-08-10",
+      "platform": "LinkedIn",
+      "post_type": "article",
+      "topic": "CloudSolutions",
+      "likes": 9000,
+      "comments": 500,
+      "shares": 200,
+      "reach": 300000,
+      "sentiment": "positive"
+    },
+    {
+      "date": "2023-08-25",
+      "platform": "Twitter",
+      "post_type": "thread",
+      "topic": "DataPrivacyConcerns",
+      "likes": 8500,
+      "comments": 2500,
+      "shares": 1400,
+      "reach": 400000,
+      "sentiment": "negative"
+    },
+    {
+      "date": "2023-09-02",
+      "platform": "Instagram",
+      "post_type": "image",
+      "topic": "PixelFold",
+      "likes": 17000,
+      "comments": 1100,
+      "shares": 350,
+      "reach": 620000,
+      "sentiment": "positive"
+    },
+    {
+      "date": "2023-09-15",
+      "platform": "Facebook",
+      "post_type": "video",
+      "topic": "YouTubeMusic",
+      "likes": 14000,
+      "comments": 900,
+      "shares": 500,
+      "reach": 450000,
+      "sentiment": "neutral"
+    }
+  ]
+}

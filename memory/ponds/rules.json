@@ -1,0 +1,175 @@
+{
+  "schema_version": "1.0",
+  "brand": "Ponds",
+  "rules": [
+    {
+      "id": "GR-001",
+      "name": "High Customer Risk Score",
+      "category": "customer_interaction",
+      "severity": "block",
+      "derived_from": "Crisis Blindspot",
+      "condition": {
+        "metric": "cx_risk",
+        "operator": "gt",
+        "threshold": 0.31
+      },
+      "reason": "Customer experience risk score exceeded safe threshold, indicating potential crisis."
+    },
+    {
+      "id": "GR-002",
+      "name": "Underclaimed ROAS",
+      "category": "campaign_launch",
+      "severity": "warn",
+      "derived_from": "ROAS Underclaim",
+      "condition": {
+        "metric": "platform_roas",
+        "operator": "lt",
+        "threshold": 10
+      },
+      "reason": "Reported ROAS is significantly lower than actual, suggesting undercredited ad performance."
+    },
+    {
+      "id": "GR-003",
+      "name": "Mixed Customer Sentiment",
+      "category": "customer_interaction",
+      "severity": "warn",
+      "derived_from": "Sentiment Mismatch",
+      "condition": {
+        "metric": "customer_sentiment",
+        "operator": "eq",
+        "threshold": "mixed"
+      },
+      "reason": "Customer sentiment on reviews is mixed despite positive social sentiment, indicating discrepancy in perception."
+    },
+    {
+      "id": "GR-004",
+      "name": "Social Reach Performance",
+      "category": "campaign_launch",
+      "severity": "pass",
+      "derived_from": "Social Lift Success",
+      "condition": {
+        "metric": "social_to_acq_rate",
+        "operator": "gt",
+        "threshold": 10
+      },
+      "reason": "High conversion rate from social media reach to new customer acquisition indicates campaign efficiency."
+    },
+    {
+      "id": "GR-005",
+      "name": "Healthy SKU Signal",
+      "category": "product_launch",
+      "severity": "pass",
+      "derived_from": "Healthy SKU Signal",
+      "condition": {
+        "metric": "health_score",
+        "operator": "eq",
+        "threshold": "5/5"
+      },
+      "reason": "All performance metrics aligned with optimal indicators for SKU health."
+    },
+    {
+      "id": "GR-006",
+      "name": "High Spend with Low Rating",
+      "category": "campaign_launch",
+      "severity": "block",
+      "derived_from": "Crisis Blindspot",
+      "condition": {
+        "metric": "spend",
+        "operator": "gt",
+        "threshold": 300000
+      },
+      "reason": "Excessive ad spend with low customer rating suggests inefficient resource allocation."
+    },
+    {
+      "id": "GR-007",
+      "name": "Positive Social Sentiment",
+      "category": "customer_interaction",
+      "severity": "pass",
+      "derived_from": "Sentiment Mismatch",
+      "condition": {
+        "metric": "social_sentiment",
+        "operator": "eq",
+        "threshold": "positive"
+      },
+      "reason": "Social sentiment is positive, indicating good brand perception on social platforms."
+    },
+    {
+      "id": "GR-008",
+      "name": "Significant ROAS Discrepancy",
+      "category": "campaign_launch",
+      "severity": "warn",
+      "derived_from": "ROAS Underclaim",
+      "condition": {
+        "metric": "gap",
+        "operator": "gt",
+        "threshold": 20
+      },
+      "reason": "Significant discrepancy between platform reported and true ROAS raises concerns about data accuracy."
+    },
+    {
+      "id": "GR-009",
+      "name": "Above Average Acquisition Efficiency",
+      "category": "campaign_launch",
+      "severity": "pass",
+      "derived_from": "Social Lift Success",
+      "condition": {
+        "metric": "social_to_acq_rate",
+        "operator": "gt",
+        "threshold": 15
+      },
+      "reason": "Exceptional conversion rate from social reach indicates high efficiency in customer acquisition."
+    },
+    {
+      "id": "GR-010",
+      "name": "NPS Above Threshold",
+      "category": "customer_interaction",
+      "severity": "pass",
+      "derived_from": "Healthy SKU Signal",
+      "condition": {
+        "metric": "nps",
+        "operator": "gt",
+        "threshold": 60
+      },
+      "reason": "Net Promoter Score exceeds threshold, indicating strong customer satisfaction and loyalty."
+    },
+    {
+      "id": "GR-011",
+      "name": "Support Ticket Surge",
+      "category": "customer_interaction",
+      "severity": "warn",
+      "derived_from": "Crisis Blindspot",
+      "condition": {
+        "metric": "support_tickets",
+        "operator": "gt",
+        "threshold": 200
+      },
+      "reason": "Increase in support tickets suggests potential issues with product or service."
+    },
+    {
+      "id": "GR-012",
+      "name": "True ROAS Above Industry Standard",
+      "category": "campaign_launch",
+      "severity": "pass",
+      "derived_from": "Healthy SKU Signal",
+      "condition": {
+        "metric": "true_roas",
+        "operator": "gt",
+        "threshold": 50
+      },
+      "reason": "True ROAS substantially exceeds standard, demonstrating exceptional return on advertising spend."
+    },
+    {
+      "id": "GR-013",
+      "name": "Out of Stock Complaints",
+      "category": "customer_interaction",
+      "severity": "warn",
+      "derived_from": "Sentiment Mismatch",
+      "condition": {
+        "metric": "top_complaint",
+        "operator": "eq",
+        "threshold": "out of stock"
+      },
+      "reason": "Frequent out of stock complaints highlight supply chain or inventory management issues."
+    }
+  ]
+}

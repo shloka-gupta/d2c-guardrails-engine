@@ -1,0 +1,79 @@
+{
+  "brand": "Apple",
+  "layer": "customers",
+  "period": "2023-Q3",
+  "data": [
+    {
+      "date": "2023-07-05",
+      "sku": "iPhone 14",
+      "support_tickets": 2000,
+      "avg_rating": 4.5,
+      "nps": 70,
+      "top_complaint": "Battery Life",
+      "review_sentiment": "positive"
+    },
+    {
+      "date": "2023-07-10",
+      "sku": "MacBook Air M2",
+      "support_tickets": 800,
+      "avg_rating": 4.7,
+      "nps": 75,
+      "top_complaint": "Keyboard Issues",
+      "review_sentiment": "positive"
+    },
+    {
+      "date": "2023-07-20",
+      "sku": "iOS 16",
+      "support_tickets": 600,
+      "avg_rating": 4.2,
+      "nps": 68,
+      "top_complaint": "Software Bugs",
+      "review_sentiment": "neutral"
+    },
+    {
+      "date": "2023-08-01",
+      "sku": "iPhone 14",
+      "support_tickets": 2200,
+      "avg_rating": 4.4,
+      "nps": 69,
+      "top_complaint": "Camera Quality",
+      "review_sentiment": "positive"
+    },
+    {
+      "date": "2023-08-15",
+      "sku": "AirPods Pro",
+      "support_tickets": 500,
+      "avg_rating": 4.8,
+      "nps": 80,
+      "top_complaint": "Fit Issues",
+      "review_sentiment": "positive"
+    },
+    {
+      "date": "2023-08-25",
+      "sku": "Apple Security Plan",
+      "support_tickets": 2500,
+      "avg_rating": 2.5,
+      "nps": 30,
+      "top_complaint": "Privacy Concerns",
+      "review_sentiment": "negative"
+    },
+    {
+      "date": "2023-09-05",
+      "sku": "Apple Pay",
+      "support_tickets": 1400,
+      "avg_rating": 2.9,
+      "nps": 40,
+      "top_complaint": "Transaction Errors",
+      "review_sentiment": "negative"
+    },
+    {
+      "date": "2023-09-20",
+      "sku": "Sustainability Plan",
+      "support_tickets": 400,
+      "avg_rating": 4.6,
+      "nps": 70,
+      "top_complaint": "Content Availability",
+      "review_sentiment": "positive"
+    }
+  ]
+}

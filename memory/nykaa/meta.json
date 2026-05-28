@@ -1,0 +1,10 @@
+{
+  "brand": "Nykaa",
+  "analyzed_at": "2026-05-28T21:15:18.023Z",
+  "layers_included": [
+    "ads",
+    "customers",
+    "sales",
+    "social"
+  ]
+}

@@ -1,0 +1,586 @@
+[
+  {
+    "_id": "2023-07-05|nykaa-lipstick-red",
+    "date": "2023-07-05",
+    "sku": "nykaa-lipstick-red",
+    "social": {
+      "likes": 1523,
+      "comments": 112,
+      "shares": 45,
+      "reach": 6500,
+      "posts": 1,
+      "dominant_sentiment": "positive",
+      "platforms": [
+        "Instagram"
+      ],
+      "engagement_rate": 25.85,
+      "raw_posts": [
+        {
+          "date": "2023-07-05",
+          "platform": "Instagram",
+          "post_type": "video",
+          "topic": "Nykaa Lipsticks",
+          "likes": 1523,
+          "comments": 112,
+          "shares": 45,
+          "reach": 6500,
+          "sentiment": "positive"
+        }
+      ]
+    },
+    "sales": {
+      "units_sold": 230,
+      "revenue_inr": 46000,
+      "channel": "online",
+      "refunds": 10,
+      "new_customers": 45
+    },
+    "customer": {
+      "support_tickets": 25,
+      "avg_rating": 4.4,
+      "nps": 54,
+      "top_complaint": "color variance",
+      "review_sentiment": "positive"
+    },
+    "ads": {
+      "spend_inr": 5000,
+      "clicks": 400,
+      "impressions": 16000,
+      "roas": 3.5,
+      "ctr": 0.025,
+      "campaign_type": "social media",
+      "status": "active"
+    },
+    "_provenance": {
+      "social_real": false,
+      "sales_real": false,
+      "customer_real": false,
+      "ads_real": false,
+      "social_posts_count": 1,
+      "layers_present": [
+        "social",
+        "sales",
+        "customer",
+        "ads"
+      ]
+    },
+    "_signals": {
+      "true_roas": 9.2,
+      "cx_risk_score": 0.03,
+      "social_to_acq_rate": 6.923,
+      "sentiment_mismatch": false,
+      "refund_rate": 4.35
+    }
+  },
+  {
+    "_id": "2023-07-15|nykaa-skincare-pack",
+    "date": "2023-07-15",
+    "sku": "nykaa-skincare-pack",
+    "social": {
+      "likes": 208,
+      "comments": 57,
+      "shares": 74,
+      "reach": 12000,
+      "posts": 1,
+      "dominant_sentiment": "positive",
+      "platforms": [
+        "Twitter"
+      ],
+      "engagement_rate": 2.83,
+      "raw_posts": [
+        {
+          "date": "2023-07-15",
+          "platform": "Twitter",
+          "post_type": "tweet",
+          "topic": "Fashion Week Collaboration",
+          "likes": 208,
+          "comments": 57,
+          "shares": 74,
+          "reach": 12000,
+          "sentiment": "positive"
+        }
+      ]
+    },
+    "sales": {
+      "units_sold": 190,
+      "revenue_inr": 95000,
+      "channel": "offline",
+      "refunds": 5,
+      "new_customers": 38
+    },
+    "customer": {
+      "support_tickets": 30,
+      "avg_rating": 4.7,
+      "nps": 62,
+      "top_complaint": "packaging",
+      "review_sentiment": "positive"
+    },
+    "ads": {
+      "spend_inr": 6000,
+      "clicks": 390,
+      "impressions": 14000,
+      "roas": 3.8,
+      "ctr": 0.027,
+      "campaign_type": "display ads",
+      "status": "active"
+    },
+    "_provenance": {
+      "social_real": false,
+      "sales_real": false,
+      "customer_real": false,
+      "ads_real": false,
+      "social_posts_count": 1,
+      "layers_present": [
+        "social",
+        "sales",
+        "customer",
+        "ads"
+      ]
+    },
+    "_signals": {
+      "true_roas": 15.83,
+      "cx_risk_score": 0.02,
+      "social_to_acq_rate": 3.167,
+      "sentiment_mismatch": false,
+      "refund_rate": 2.63
+    }
+  },
+  {
+    "_id": "2023-07-25|nykaa-matte-lipstick",
+    "date": "2023-07-25",
+    "sku": "nykaa-matte-lipstick",
+    "social": {
+      "likes": 957,
+      "comments": 134,
+      "shares": 67,
+      "reach": 8900,
+      "posts": 1,
+      "dominant_sentiment": "neutral",
+      "platforms": [
+        "Facebook"
+      ],
+      "engagement_rate": 13.01,
+      "raw_posts": [
+        {
+          "date": "2023-07-25",
+          "platform": "Facebook",
+          "post_type": "image",
+          "topic": "Nykaa Matte Lipsticks",
+          "likes": 957,
+          "comments": 134,
+          "shares": 67,
+          "reach": 8900,
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    "sales": {
+      "units_sold": 275,
+      "revenue_inr": 68750,
+      "channel": "online",
+      "refunds": 14,
+      "new_customers": 62
+    },
+    "customer": {
+      "support_tickets": 35,
+      "avg_rating": 4.1,
+      "nps": 58,
+      "top_complaint": "dryness",
+      "review_sentiment": "neutral"
+    },
+    "ads": {
+      "spend_inr": 5500,
+      "clicks": 420,
+      "impressions": 15000,
+      "roas": 4.2,
+      "ctr": 0.028,
+      "campaign_type": "social media",
+      "status": "active"
+    },
+    "_provenance": {
+      "social_real": false,
+      "sales_real": false,
+      "customer_real": false,
+      "ads_real": false,
+      "social_posts_count": 1,
+      "layers_present": [
+        "social",
+        "sales",
+        "customer",
+        "ads"
+      ]
+    },
+    "_signals": {
+      "true_roas": 12.5,
+      "cx_risk_score": 0.06,
+      "social_to_acq_rate": 6.966,
+      "sentiment_mismatch": false,
+      "refund_rate": 5.09
+    }
+  },
+  {
+    "_id": "2023-08-05|nykaa-skincare-starter",
+    "date": "2023-08-05",
+    "sku": "nykaa-skincare-starter",
+    "social": {
+      "likes": 2544,
+      "comments": 145,
+      "shares": 132,
+      "reach": 14800,
+      "posts": 1,
+      "dominant_sentiment": "positive",
+      "platforms": [
+        "Instagram"
+      ],
+      "engagement_rate": 19.06,
+      "raw_posts": [
+        {
+          "date": "2023-08-05",
+          "platform": "Instagram",
+          "post_type": "story",
+          "topic": "New Skincare Line",
+          "likes": 2544,
+          "comments": 145,
+          "shares": 132,
+          "reach": 14800,
+          "sentiment": "positive"
+        }
+      ]
+    },
+    "sales": {
+      "units_sold": 300,
+      "revenue_inr": 120000,
+      "channel": "online",
+      "refunds": 17,
+      "new_customers": 70
+    },
+    "customer": {
+      "support_tickets": 20,
+      "avg_rating": 4.5,
+      "nps": 60,
+      "top_complaint": "delivery delay",
+      "review_sentiment": "positive"
+    },
+    "ads": {
+      "spend_inr": 7000,
+      "clicks": 500,
+      "impressions": 20000,
+      "roas": 3.6,
+      "ctr": 0.025,
+      "campaign_type": "video ads",
+      "status": "active"
+    },
+    "_provenance": {
+      "social_real": false,
+      "sales_real": false,
+      "customer_real": false,
+      "ads_real": false,
+      "social_posts_count": 1,
+      "layers_present": [
+        "social",
+        "sales",
+        "customer",
+        "ads"
+      ]
+    },
+    "_signals": {
+      "true_roas": 17.14,
+      "cx_risk_score": 0.02,
+      "social_to_acq_rate": 4.73,
+      "sentiment_mismatch": false,
+      "refund_rate": 5.67
+    }
+  },
+  {
+    "_id": "2023-08-15|nykaa-cosmetics-set",
+    "date": "2023-08-15",
+    "sku": "nykaa-cosmetics-set",
+    "social": {
+      "likes": 86,
+      "comments": 277,
+      "shares": 42,
+      "reach": 6500,
+      "posts": 1,
+      "dominant_sentiment": "negative",
+      "platforms": [
+        "Twitter"
+      ],
+      "engagement_rate": 6.23,
+      "raw_posts": [
+        {
+          "date": "2023-08-15",
+          "platform": "Twitter",
+          "post_type": "tweet",
+          "topic": "Customer Service Issues",
+          "likes": 86,
+          "comments": 277,
+          "shares": 42,
+          "reach": 6500,
+          "sentiment": "negative"
+        }
+      ]
+    },
+    "sales": {
+      "units_sold": 210,
+      "revenue_inr": 105000,
+      "channel": "offline",
+      "refunds": 9,
+      "new_customers": 50
+    },
+    "customer": {
+      "support_tickets": 90,
+      "avg_rating": 2.8,
+      "nps": 12,
+      "top_complaint": "customer service",
+      "review_sentiment": "negative"
+    },
+    "ads": {
+      "spend_inr": 8000,
+      "clicks": 150,
+      "impressions": 10000,
+      "roas": 1.2,
+      "ctr": 0.015,
+      "campaign_type": "search ads",
+      "status": "active"
+    },
+    "_provenance": {
+      "social_real": false,
+      "sales_real": false,
+      "customer_real": false,
+      "ads_real": false,
+      "social_posts_count": 1,
+      "layers_present": [
+        "social",
+        "sales",
+        "customer",
+        "ads"
+      ]
+    },
+    "_signals": {
+      "true_roas": 13.13,
+      "cx_risk_score": 0.4,
+      "social_to_acq_rate": 7.692,
+      "sentiment_mismatch": false,
+      "refund_rate": 4.29
+    }
+  },
+  {
+    "_id": "2023-08-25|nykaa-skin-elixir",
+    "date": "2023-08-25",
+    "sku": "nykaa-skin-elixir",
+    "social": {
+      "likes": 1250,
+      "comments": 80,
+      "shares": 54,
+      "reach": 9300,
+      "posts": 1,
+      "dominant_sentiment": "neutral",
+      "platforms": [
+        "Facebook"
+      ],
+      "engagement_rate": 14.88,
+      "raw_posts": [
+        {
+          "date": "2023-08-25",
+          "platform": "Facebook",
+          "post_type": "video",
+          "topic": "Nykaa Skincare Line",
+          "likes": 1250,
+          "comments": 80,
+          "shares": 54,
+          "reach": 9300,
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    "sales": {
+      "units_sold": 160,
+      "revenue_inr": 72000,
+      "channel": "online",
+      "refunds": 8,
+      "new_customers": 29
+    },
+    "customer": {
+      "support_tickets": 28,
+      "avg_rating": 4.3,
+      "nps": 56,
+      "top_complaint": "leakage",
+      "review_sentiment": "positive"
+    },
+    "ads": {
+      "spend_inr": 4800,
+      "clicks": 310,
+      "impressions": 13000,
+      "roas": 3,
+      "ctr": 0.024,
+      "campaign_type": "display ads",
+      "status": "active"
+    },
+    "_provenance": {
+      "social_real": false,
+      "sales_real": false,
+      "customer_real": false,
+      "ads_real": false,
+      "social_posts_count": 1,
+      "layers_present": [
+        "social",
+        "sales",
+        "customer",
+        "ads"
+      ]
+    },
+    "_signals": {
+      "true_roas": 15,
+      "cx_risk_score": 0.04,
+      "social_to_acq_rate": 3.118,
+      "sentiment_mismatch": true,
+      "refund_rate": 5
+    }
+  },
+  {
+    "_id": "2023-09-05|nykaa-anti-frizz-shampoo",
+    "date": "2023-09-05",
+    "sku": "nykaa-anti-frizz-shampoo",
+    "social": {
+      "likes": 873,
+      "comments": 45,
+      "shares": 23,
+      "reach": 4200,
+      "posts": 1,
+      "dominant_sentiment": "positive",
+      "platforms": [
+        "Instagram"
+      ],
+      "engagement_rate": 22.4,
+      "raw_posts": [
+        {
+          "date": "2023-09-05",
+          "platform": "Instagram",
+          "post_type": "image",
+          "topic": "Monsoon Makeup Tips",
+          "likes": 873,
+          "comments": 45,
+          "shares": 23,
+          "reach": 4200,
+          "sentiment": "positive"
+        }
+      ]
+    },
+    "sales": {
+      "units_sold": 340,
+      "revenue_inr": 102000,
+      "channel": "offline",
+      "refunds": 12,
+      "new_customers": 81
+    },
+    "customer": {
+      "support_tickets": 15,
+      "avg_rating": 4.6,
+      "nps": 64,
+      "top_complaint": "availability",
+      "review_sentiment": "positive"
+    },
+    "ads": {
+      "spend_inr": 7500,
+      "clicks": 600,
+      "impressions": 25000,
+      "roas": 3.7,
+      "ctr": 0.024,
+      "campaign_type": "video ads",
+      "status": "active"
+    },
+    "_provenance": {
+      "social_real": false,
+      "sales_real": false,
+      "customer_real": false,
+      "ads_real": false,
+      "social_posts_count": 1,
+      "layers_present": [
+        "social",
+        "sales",
+        "customer",
+        "ads"
+      ]
+    },
+    "_signals": {
+      "true_roas": 13.6,
+      "cx_risk_score": 0.01,
+      "social_to_acq_rate": 19.286,
+      "sentiment_mismatch": false,
+      "refund_rate": 3.53
+    }
+  },
+  {
+    "_id": "2023-09-15|nykaa-luxe-kit",
+    "date": "2023-09-15",
+    "sku": "nykaa-luxe-kit",
+    "social": {
+      "likes": 321,
+      "comments": 118,
+      "shares": 92,
+      "reach": 9400,
+      "posts": 1,
+      "dominant_sentiment": "positive",
+      "platforms": [
+        "Twitter"
+      ],
+      "engagement_rate": 5.65,
+      "raw_posts": [
+        {
+          "date": "2023-09-15",
+          "platform": "Twitter",
+          "post_type": "tweet",
+          "topic": "Bestselling Products",
+          "likes": 321,
+          "comments": 118,
+          "shares": 92,
+          "reach": 9400,
+          "sentiment": "positive"
+        }
+      ]
+    },
+    "sales": {
+      "units_sold": 225,
+      "revenue_inr": 135000,
+      "channel": "online",
+      "refunds": 15,
+      "new_customers": 72
+    },
+    "customer": {
+      "support_tickets": 27,
+      "avg_rating": 4,
+      "nps": 58,
+      "top_complaint": "price",
+      "review_sentiment": "positive"
+    },
+    "ads": {
+      "spend_inr": 9000,
+      "clicks": 530,
+      "impressions": 22000,
+      "roas": 2.5,
+      "ctr": 0.024,
+      "campaign_type": "search ads",
+      "status": "active"
+    },
+    "_provenance": {
+      "social_real": false,
+      "sales_real": false,
+      "customer_real": false,
+      "ads_real": false,
+      "social_posts_count": 1,
+      "layers_present": [
+        "social",
+        "sales",
+        "customer",
+        "ads"
+      ]
+    },
+    "_signals": {
+      "true_roas": 15,
+      "cx_risk_score": 0.05,
+      "social_to_acq_rate": 7.66,
+      "sentiment_mismatch": false,
+      "refund_rate": 6.67
+    }
+  }
+]

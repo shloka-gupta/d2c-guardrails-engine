@@ -1,0 +1,586 @@
+[
+  {
+    "_id": "2023-07-03|vitamin c serum",
+    "date": "2023-07-03",
+    "sku": "vitamin c serum",
+    "social": {
+      "likes": 12400,
+      "comments": 540,
+      "shares": 890,
+      "reach": 98000,
+      "posts": 1,
+      "dominant_sentiment": "positive",
+      "platforms": [
+        "Instagram"
+      ],
+      "engagement_rate": 14.11,
+      "raw_posts": [
+        {
+          "date": "2023-07-03",
+          "platform": "Instagram",
+          "post_type": "Reel",
+          "topic": "Vitamin C serum tutorial",
+          "likes": 12400,
+          "comments": 540,
+          "shares": 890,
+          "reach": 98000,
+          "sentiment": "positive"
+        }
+      ]
+    },
+    "sales": {
+      "units_sold": 4200,
+      "revenue_inr": 8820000,
+      "channel": "Amazon",
+      "refunds": 42,
+      "new_customers": 1800
+    },
+    "customer": {
+      "support_tickets": 12,
+      "avg_rating": 4.4,
+      "nps": 61,
+      "top_complaint": "none",
+      "review_sentiment": "positive"
+    },
+    "ads": {
+      "spend_inr": 180000,
+      "clicks": 12400,
+      "impressions": 340000,
+      "roas": 3.2,
+      "ctr": 3.6,
+      "campaign_type": "awareness",
+      "status": "active"
+    },
+    "_provenance": {
+      "social_real": false,
+      "sales_real": false,
+      "customer_real": false,
+      "ads_real": false,
+      "social_posts_count": 1,
+      "layers_present": [
+        "social",
+        "sales",
+        "customer",
+        "ads"
+      ]
+    },
+    "_signals": {
+      "true_roas": 49,
+      "cx_risk_score": 0.01,
+      "social_to_acq_rate": 18.367,
+      "sentiment_mismatch": false,
+      "refund_rate": 1
+    }
+  },
+  {
+    "_id": "2023-07-05|onion hair oil",
+    "date": "2023-07-05",
+    "sku": "onion hair oil",
+    "social": {
+      "likes": 31200,
+      "comments": 1820,
+      "shares": 4100,
+      "reach": 310000,
+      "posts": 1,
+      "dominant_sentiment": "positive",
+      "platforms": [
+        "Instagram"
+      ],
+      "engagement_rate": 11.97,
+      "raw_posts": [
+        {
+          "date": "2023-07-05",
+          "platform": "Instagram",
+          "post_type": "Reel",
+          "topic": "Onion hair oil before/after",
+          "likes": 31200,
+          "comments": 1820,
+          "shares": 4100,
+          "reach": 310000,
+          "sentiment": "positive"
+        }
+      ]
+    },
+    "sales": {
+      "units_sold": 9100,
+      "revenue_inr": 18655000,
+      "channel": "Amazon",
+      "refunds": 88,
+      "new_customers": 3200
+    },
+    "customer": {
+      "support_tickets": 18,
+      "avg_rating": 4.3,
+      "nps": 58,
+      "top_complaint": "slow delivery",
+      "review_sentiment": "positive"
+    },
+    "ads": {
+      "spend_inr": 220000,
+      "clicks": 18900,
+      "impressions": 480000,
+      "roas": 4.1,
+      "ctr": 3.9,
+      "campaign_type": "conversion",
+      "status": "active"
+    },
+    "_provenance": {
+      "social_real": false,
+      "sales_real": false,
+      "customer_real": false,
+      "ads_real": false,
+      "social_posts_count": 1,
+      "layers_present": [
+        "social",
+        "sales",
+        "customer",
+        "ads"
+      ]
+    },
+    "_signals": {
+      "true_roas": 84.8,
+      "cx_risk_score": 0.03,
+      "social_to_acq_rate": 10.323,
+      "sentiment_mismatch": false,
+      "refund_rate": 0.97
+    }
+  },
+  {
+    "_id": "2023-07-08|onion hair oil",
+    "date": "2023-07-08",
+    "sku": "onion hair oil",
+    "social": {
+      "likes": 8900,
+      "comments": 430,
+      "shares": 210,
+      "reach": 94000,
+      "posts": 1,
+      "dominant_sentiment": "positive",
+      "platforms": [
+        "YouTube"
+      ],
+      "engagement_rate": 10.15,
+      "raw_posts": [
+        {
+          "date": "2023-07-08",
+          "platform": "YouTube",
+          "post_type": "Video",
+          "topic": "Skincare routine ft. Mamaearth",
+          "likes": 8900,
+          "comments": 430,
+          "shares": 210,
+          "reach": 94000,
+          "sentiment": "positive"
+        }
+      ]
+    },
+    "sales": {
+      "units_sold": 11200,
+      "revenue_inr": 22960000,
+      "channel": "Own Site",
+      "refunds": 210,
+      "new_customers": 4100
+    },
+    "customer": {
+      "support_tickets": 64,
+      "avg_rating": 3.9,
+      "nps": 44,
+      "top_complaint": "out of stock",
+      "review_sentiment": "mixed"
+    },
+    "ads": {
+      "spend_inr": 380000,
+      "clicks": 14200,
+      "impressions": 510000,
+      "roas": 1.4,
+      "ctr": 2.8,
+      "campaign_type": "conversion",
+      "status": "active"
+    },
+    "_provenance": {
+      "social_real": false,
+      "sales_real": false,
+      "customer_real": false,
+      "ads_real": false,
+      "social_posts_count": 1,
+      "layers_present": [
+        "social",
+        "sales",
+        "customer",
+        "ads"
+      ]
+    },
+    "_signals": {
+      "true_roas": 60.42,
+      "cx_risk_score": 0.14,
+      "social_to_acq_rate": 43.617,
+      "sentiment_mismatch": true,
+      "refund_rate": 1.88
+    }
+  },
+  {
+    "_id": "2023-07-15|shade correction cream",
+    "date": "2023-07-15",
+    "sku": "shade correction cream",
+    "social": {
+      "likes": 2100,
+      "comments": 3200,
+      "shares": 890,
+      "reach": 45000,
+      "posts": 1,
+      "dominant_sentiment": "negative",
+      "platforms": [
+        "Instagram"
+      ],
+      "engagement_rate": 13.76,
+      "raw_posts": [
+        {
+          "date": "2023-07-15",
+          "platform": "Instagram",
+          "post_type": "Post",
+          "topic": "Shade range complaints response",
+          "likes": 2100,
+          "comments": 3200,
+          "shares": 890,
+          "reach": 45000,
+          "sentiment": "negative"
+        }
+      ]
+    },
+    "sales": {
+      "units_sold": 1800,
+      "revenue_inr": 3240000,
+      "channel": "Amazon",
+      "refunds": 540,
+      "new_customers": 210
+    },
+    "customer": {
+      "support_tickets": 218,
+      "avg_rating": 2.8,
+      "nps": 21,
+      "top_complaint": "shade mismatch, skin irritation",
+      "review_sentiment": "negative"
+    },
+    "ads": {
+      "spend_inr": 310000,
+      "clicks": 8900,
+      "impressions": 290000,
+      "roas": 0.8,
+      "ctr": 3.1,
+      "campaign_type": "conversion",
+      "status": "active"
+    },
+    "_provenance": {
+      "social_real": false,
+      "sales_real": false,
+      "customer_real": false,
+      "ads_real": false,
+      "social_posts_count": 1,
+      "layers_present": [
+        "social",
+        "sales",
+        "customer",
+        "ads"
+      ]
+    },
+    "_signals": {
+      "true_roas": 10.45,
+      "cx_risk_score": 0.96,
+      "social_to_acq_rate": 4.667,
+      "sentiment_mismatch": false,
+      "refund_rate": 30
+    }
+  },
+  {
+    "_id": "2023-07-22|sunscreen spf 50",
+    "date": "2023-07-22",
+    "sku": "sunscreen spf 50",
+    "social": {
+      "likes": 18700,
+      "comments": 920,
+      "shares": 2300,
+      "reach": 187000,
+      "posts": 1,
+      "dominant_sentiment": "positive",
+      "platforms": [
+        "Instagram"
+      ],
+      "engagement_rate": 11.72,
+      "raw_posts": [
+        {
+          "date": "2023-07-22",
+          "platform": "Instagram",
+          "post_type": "Reel",
+          "topic": "New sunscreen launch",
+          "likes": 18700,
+          "comments": 920,
+          "shares": 2300,
+          "reach": 187000,
+          "sentiment": "positive"
+        }
+      ]
+    },
+    "sales": {
+      "units_sold": 6700,
+      "revenue_inr": 13400000,
+      "channel": "Own Site",
+      "refunds": 54,
+      "new_customers": 2900
+    },
+    "customer": {
+      "support_tickets": 9,
+      "avg_rating": 4.6,
+      "nps": 68,
+      "top_complaint": "none",
+      "review_sentiment": "positive"
+    },
+    "ads": {
+      "spend_inr": 240000,
+      "clicks": 21000,
+      "impressions": 520000,
+      "roas": 3.8,
+      "ctr": 4,
+      "campaign_type": "conversion",
+      "status": "active"
+    },
+    "_provenance": {
+      "social_real": false,
+      "sales_real": false,
+      "customer_real": false,
+      "ads_real": false,
+      "social_posts_count": 1,
+      "layers_present": [
+        "social",
+        "sales",
+        "customer",
+        "ads"
+      ]
+    },
+    "_signals": {
+      "true_roas": 55.83,
+      "cx_risk_score": 0.01,
+      "social_to_acq_rate": 15.508,
+      "sentiment_mismatch": false,
+      "refund_rate": 0.81
+    }
+  },
+  {
+    "_id": "2023-08-01|vitamin c serum",
+    "date": "2023-08-01",
+    "sku": "vitamin c serum",
+    "social": {
+      "likes": 24000,
+      "comments": 1840,
+      "shares": 3100,
+      "reach": 420000,
+      "posts": 1,
+      "dominant_sentiment": "mixed",
+      "platforms": [
+        "YouTube"
+      ],
+      "engagement_rate": 6.89,
+      "raw_posts": [
+        {
+          "date": "2023-08-01",
+          "platform": "YouTube",
+          "post_type": "Video",
+          "topic": "Honest Mamaearth review (creator collab)",
+          "likes": 24000,
+          "comments": 1840,
+          "shares": 3100,
+          "reach": 420000,
+          "sentiment": "mixed"
+        }
+      ]
+    },
+    "sales": {
+      "units_sold": 7800,
+      "revenue_inr": 16380000,
+      "channel": "Amazon",
+      "refunds": 96,
+      "new_customers": 3400
+    },
+    "customer": {
+      "support_tickets": 31,
+      "avg_rating": 4.1,
+      "nps": 54,
+      "top_complaint": "packaging damage",
+      "review_sentiment": "mixed"
+    },
+    "ads": {
+      "spend_inr": 290000,
+      "clicks": 24800,
+      "impressions": 610000,
+      "roas": 3.5,
+      "ctr": 4.1,
+      "campaign_type": "conversion",
+      "status": "active"
+    },
+    "_provenance": {
+      "social_real": false,
+      "sales_real": false,
+      "customer_real": false,
+      "ads_real": false,
+      "social_posts_count": 1,
+      "layers_present": [
+        "social",
+        "sales",
+        "customer",
+        "ads"
+      ]
+    },
+    "_signals": {
+      "true_roas": 56.48,
+      "cx_risk_score": 0.06,
+      "social_to_acq_rate": 8.095,
+      "sentiment_mismatch": false,
+      "refund_rate": 1.23
+    }
+  },
+  {
+    "_id": "2023-08-10|hair care combo",
+    "date": "2023-08-10",
+    "sku": "hair care combo",
+    "social": {
+      "likes": 9800,
+      "comments": 310,
+      "shares": 780,
+      "reach": 82000,
+      "posts": 1,
+      "dominant_sentiment": "positive",
+      "platforms": [
+        "Instagram"
+      ],
+      "engagement_rate": 13.28,
+      "raw_posts": [
+        {
+          "date": "2023-08-10",
+          "platform": "Instagram",
+          "post_type": "Reel",
+          "topic": "Back to school haircare",
+          "likes": 9800,
+          "comments": 310,
+          "shares": 780,
+          "reach": 82000,
+          "sentiment": "positive"
+        }
+      ]
+    },
+    "sales": {
+      "units_sold": 3200,
+      "revenue_inr": 9600000,
+      "channel": "Own Site",
+      "refunds": 48,
+      "new_customers": 1100
+    },
+    "customer": {
+      "support_tickets": 14,
+      "avg_rating": 4.4,
+      "nps": 63,
+      "top_complaint": "none",
+      "review_sentiment": "positive"
+    },
+    "ads": {
+      "spend_inr": 160000,
+      "clicks": 9800,
+      "impressions": 280000,
+      "roas": 2.9,
+      "ctr": 3.5,
+      "campaign_type": "awareness",
+      "status": "active"
+    },
+    "_provenance": {
+      "social_real": false,
+      "sales_real": false,
+      "customer_real": false,
+      "ads_real": false,
+      "social_posts_count": 1,
+      "layers_present": [
+        "social",
+        "sales",
+        "customer",
+        "ads"
+      ]
+    },
+    "_signals": {
+      "true_roas": 60,
+      "cx_risk_score": 0.02,
+      "social_to_acq_rate": 13.415,
+      "sentiment_mismatch": false,
+      "refund_rate": 1.5
+    }
+  },
+  {
+    "_id": "2023-09-05|festive gift kit",
+    "date": "2023-09-05",
+    "sku": "festive gift kit",
+    "social": {
+      "likes": 22100,
+      "comments": 1100,
+      "shares": 3400,
+      "reach": 210000,
+      "posts": 1,
+      "dominant_sentiment": "positive",
+      "platforms": [
+        "Instagram"
+      ],
+      "engagement_rate": 12.67,
+      "raw_posts": [
+        {
+          "date": "2023-09-05",
+          "platform": "Instagram",
+          "post_type": "Reel",
+          "topic": "Festive skincare gifting",
+          "likes": 22100,
+          "comments": 1100,
+          "shares": 3400,
+          "reach": 210000,
+          "sentiment": "positive"
+        }
+      ]
+    },
+    "sales": {
+      "units_sold": 8900,
+      "revenue_inr": 26700000,
+      "channel": "Amazon",
+      "refunds": 67,
+      "new_customers": 4800
+    },
+    "customer": {
+      "support_tickets": 22,
+      "avg_rating": 4.5,
+      "nps": 66,
+      "top_complaint": "delayed delivery",
+      "review_sentiment": "positive"
+    },
+    "ads": {
+      "spend_inr": 420000,
+      "clicks": 38000,
+      "impressions": 890000,
+      "roas": 4.4,
+      "ctr": 4.3,
+      "campaign_type": "conversion",
+      "status": "active"
+    },
+    "_provenance": {
+      "social_real": false,
+      "sales_real": false,
+      "customer_real": false,
+      "ads_real": false,
+      "social_posts_count": 1,
+      "layers_present": [
+        "social",
+        "sales",
+        "customer",
+        "ads"
+      ]
+    },
+    "_signals": {
+      "true_roas": 63.57,
+      "cx_risk_score": 0.02,
+      "social_to_acq_rate": 22.857,
+      "sentiment_mismatch": false,
+      "refund_rate": 0.75
+    }
+  }
+]

@@ -1,0 +1,162 @@
+{
+  "schema_version": "1.0",
+  "brand": "Apple",
+  "rules": [
+    {
+      "id": "GR-001",
+      "name": "High Customer Experience Risk",
+      "category": "customer_interaction",
+      "severity": "block",
+      "derived_from": "Crisis Blindspot",
+      "condition": {
+        "metric": "cx_risk_score",
+        "operator": "gt",
+        "threshold": 6.25
+      },
+      "reason": "Customer experience risk score exceeds threshold indicating potential crisis."
+    },
+    {
+      "id": "GR-002",
+      "name": "High Support Ticket Volume",
+      "category": "customer_interaction",
+      "severity": "block",
+      "derived_from": "Crisis Blindspot",
+      "condition": {
+        "metric": "customer.support_tickets",
+        "operator": "gt",
+        "threshold": 2000
+      },
+      "reason": "Support tickets exceed the acceptable volume, indicating potential issues with the product."
+    },
+    {
+      "id": "GR-003",
+      "name": "Low Customer Rating Indicator",
+      "category": "customer_interaction",
+      "severity": "block",
+      "derived_from": "Crisis Blindspot",
+      "condition": {
+        "metric": "customer.avg_rating",
+        "operator": "lt",
+        "threshold": 3
+      },
+      "reason": "Average customer rating is below the acceptable threshold, which may reflect dissatisfaction."
+    },
+    {
+      "id": "GR-004",
+      "name": "Sentiment Mismatch Alert",
+      "category": "customer_interaction",
+      "severity": "warn",
+      "derived_from": "Sentiment Mismatch",
+      "condition": {
+        "metric": "sentiment_mismatch",
+        "operator": "eq",
+        "threshold": true
+      },
+      "reason": "There is a mismatch between social sentiment and customer reviews which may indicate perception issues."
+    },
+    {
+      "id": "GR-005",
+      "name": "ROAS Underclaim Detected",
+      "category": "campaign_launch",
+      "severity": "warn",
+      "derived_from": "ROAS Underclaim",
+      "condition": {
+        "metric": "platform_roas_to_true_roas_ratio",
+        "operator": "lt",
+        "threshold": 1
+      },
+      "reason": "Platform-reported ROAS is significantly lower than true ROAS, indicating potential underreporting."
+    },
+    {
+      "id": "GR-006",
+      "name": "ROAS Overclaim Warning",
+      "category": "campaign_launch",
+      "severity": "block",
+      "derived_from": "ROAS Overclaim",
+      "condition": {
+        "metric": "platform_roas_to_true_roas_ratio",
+        "operator": "gt",
+        "threshold": 1
+      },
+      "reason": "Platform-reported ROAS is higher than true ROAS, risking inaccurate campaign interpretations."
+    },
+    {
+      "id": "GR-007",
+      "name": "Negative Health Score Alert",
+      "category": "product_launch",
+      "severity": "warn",
+      "derived_from": "Healthy SKU Signal",
+      "condition": {
+        "metric": "health_score",
+        "operator": "lt",
+        "threshold": "4/5"
+      },
+      "reason": "Health score indicates subpar performance across key marketing, sales, and customer satisfaction metrics."
+    },
+    {
+      "id": "GR-008",
+      "name": "High Refund Rate",
+      "category": "customer_interaction",
+      "severity": "warn",
+      "derived_from": "Crisis Blindspot",
+      "condition": {
+        "metric": "refund_rate",
+        "operator": "gt",
+        "threshold": 0.05
+      },
+      "reason": "Refund rate exceeds 5%, indicating potential dissatisfaction or return issues."
+    },
+    {
+      "id": "GR-009",
+      "name": "Social to Acquisition Rate Problem",
+      "category": "campaign_launch",
+      "severity": "warn",
+      "derived_from": "Healthy SKU Signal",
+      "condition": {
+        "metric": "social_to_acq_rate",
+        "operator": "lt",
+        "threshold": 0.1
+      },
+      "reason": "Low conversion rate from social reach to acquisitions signals ineffective use of social platforms."
+    },
+    {
+      "id": "GR-010",
+      "name": "Inventory Managed Check",
+      "category": "product_launch",
+      "severity": "warn",
+      "derived_from": "Healthy SKU Signal",
+      "condition": {
+        "metric": "inventory_confirmed",
+        "operator": "eq",
+        "threshold": false
+      },
+      "reason": "Inventory confirmations are incomplete, possibly affecting product availability and sales."
+    },
+    {
+      "id": "GR-011",
+      "name": "Social Reach and Impact Alert",
+      "category": "campaign_launch",
+      "severity": "warn",
+      "derived_from": "Healthy SKU Signal",
+      "condition": {
+        "metric": "social.reach",
+        "operator": "lt",
+        "threshold": 1000000
+      },
+      "reason": "Social media reach below 1 million may indicate insufficient brand penetration in markets."
+    },
+    {
+      "id": "GR-012",
+      "name": "NPS Success Indicator",
+      "category": "customer_interaction",
+      "severity": "warn",
+      "derived_from": "Healthy SKU Signal",
+      "condition": {
+        "metric": "customer.nps",
+        "operator": "gt",
+        "threshold": 70
+      },
+      "reason": "Maintaining a high NPS should be monitored for ensuring strong customer advocacy and satisfaction."
+    }
+  ]
+}

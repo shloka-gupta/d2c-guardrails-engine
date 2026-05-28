@@ -1,0 +1,190 @@
+{
+  "generated_at": "2026-05-28T21:14:58.417Z",
+  "brand": "Nykaa",
+  "record_count": 8,
+  "baselines": {
+    "cx_risk": 0.0925,
+    "refund_rate": 4.14125,
+    "true_roas": 6.3525,
+    "reach": 54375,
+    "new_cust": 135
+  },
+  "summary": {
+    "total": 9,
+    "block": 1,
+    "warn": 2,
+    "pass": 6
+  },
+  "findings": [
+    {
+      "check": "Crisis Blindspot",
+      "severity": "block",
+      "date": "2023-08-20",
+      "sku": "nykaa-luxury-perfume",
+      "detail": "cx_risk_score is 0.58 (baseline: 0.09, threshold: 0.18). Ad spend was 60,000 with status \"active\". Support tickets: 100. Rating: 2.1.",
+      "layers": [
+        "customer",
+        "ads"
+      ],
+      "numbers": {
+        "cx_risk": 0.58,
+        "baseline": 0.0925,
+        "spend": 60000
+      }
+    },
+    {
+      "check": "ROAS Underclaim",
+      "severity": "warn",
+      "date": "2023-08-20",
+      "sku": "nykaa-luxury-perfume",
+      "detail": "Platform reports ROAS of 0.5x but true ROAS (revenue ÷ spend) is 5x. Gap of 4.50x. Platform is underclaiming — attribution window may be too narrow.",
+      "layers": [
+        "ads",
+        "sales"
+      ],
+      "numbers": {
+        "platform_roas": 0.5,
+        "true_roas": 5,
+        "gap": 4.5,
+        "ratio": 10
+      }
+    },
+    {
+      "check": "ROAS Underclaim",
+      "severity": "warn",
+      "date": "2023-09-29",
+      "sku": "nykaa-skin-secrets-rose-water",
+      "detail": "Platform reports ROAS of 10x but true ROAS (revenue ÷ spend) is 13.5x. Gap of 3.50x. Platform is underclaiming — attribution window may be too narrow.",
+      "layers": [
+        "ads",
+        "sales"
+      ],
+      "numbers": {
+        "platform_roas": 10,
+        "true_roas": 13.5,
+        "gap": 3.5,
+        "ratio": 1.35
+      }
+    },
+    {
+      "check": "Healthy SKU Signal",
+      "severity": "pass",
+      "date": "2023-07-05",
+      "sku": "nykaa-matte-to-last-liquid-lipstick",
+      "detail": "All 4 layers positive (5/5 signals). Reach: 50,000, Units: 500, NPS: 70, Platform ROAS: 5x, True ROAS: 5x. This is the winning template to replicate.",
+      "layers": [
+        "social",
+        "sales",
+        "customer",
+        "ads"
+      ],
+      "numbers": {
+        "nps": 70,
+        "units": 500,
+        "roas": 5,
+        "true_roas": 5,
+        "health_score": "5/5"
+      }
+    },
+    {
+      "check": "Healthy SKU Signal",
+      "severity": "pass",
+      "date": "2023-07-19",
+      "sku": "nykaa-skin-potion",
+      "detail": "All 4 layers positive (5/5 signals). Reach: 75,000, Units: 300, NPS: 68, Platform ROAS: 4.5x, True ROAS: 5x. This is the winning template to replicate.",
+      "layers": [
+        "social",
+        "sales",
+        "customer",
+        "ads"
+      ],
+      "numbers": {
+        "nps": 68,
+        "units": 300,
+        "roas": 4.5,
+        "true_roas": 5,
+        "health_score": "5/5"
+      }
+    },
+    {
+      "check": "Healthy SKU Signal",
+      "severity": "pass",
+      "date": "2023-08-15",
+      "sku": "nykaa-nail-enamel",
+      "detail": "All 4 layers positive (5/5 signals). Reach: 60,000, Units: 600, NPS: 75, Platform ROAS: 4x, True ROAS: 4x. This is the winning template to replicate.",
+      "layers": [
+        "social",
+        "sales",
+        "customer",
+        "ads"
+      ],
+      "numbers": {
+        "nps": 75,
+        "units": 600,
+        "roas": 4,
+        "true_roas": 4,
+        "health_score": "5/5"
+      }
+    },
+    {
+      "check": "Healthy SKU Signal",
+      "severity": "pass",
+      "date": "2023-09-01",
+      "sku": "nykaa-natural-face-sheet-mask",
+      "detail": "All 4 layers positive (5/5 signals). Reach: 40,000, Units: 750, NPS: 70, Platform ROAS: 6x, True ROAS: 6.82x. This is the winning template to replicate.",
+      "layers": [
+        "social",
+        "sales",
+        "customer",
+        "ads"
+      ],
+      "numbers": {
+        "nps": 70,
+        "units": 750,
+        "roas": 6,
+        "true_roas": 6.82,
+        "health_score": "5/5"
+      }
+    },
+    {
+      "check": "Healthy SKU Signal",
+      "severity": "pass",
+      "date": "2023-09-15",
+      "sku": "nykaa-soothing-gel",
+      "detail": "All 4 layers positive (5/5 signals). Reach: 80,000, Units: 850, NPS: 72, Platform ROAS: 8.5x, True ROAS: 8.5x. This is the winning template to replicate.",
+      "layers": [
+        "social",
+        "sales",
+        "customer",
+        "ads"
+      ],
+      "numbers": {
+        "nps": 72,
+        "units": 850,
+        "roas": 8.5,
+        "true_roas": 8.5,
+        "health_score": "5/5"
+      }
+    },
+    {
+      "check": "Healthy SKU Signal",
+      "severity": "pass",
+      "date": "2023-09-29",
+      "sku": "nykaa-skin-secrets-rose-water",
+      "detail": "All 4 layers positive (5/5 signals). Reach: 70,000, Units: 900, NPS: 78, Platform ROAS: 10x, True ROAS: 13.5x. This is the winning template to replicate.",
+      "layers": [
+        "social",
+        "sales",
+        "customer",
+        "ads"
+      ],
+      "numbers": {
+        "nps": 78,
+        "units": 900,
+        "roas": 10,
+        "true_roas": 13.5,
+        "health_score": "5/5"
+      }
+    }
+  ]
+}

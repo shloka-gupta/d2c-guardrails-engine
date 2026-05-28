@@ -1,0 +1,14 @@
+{
+  "brand": "Ponds",
+  "analyzed_at": "2026-05-28T10:54:36.529Z",
+  "layers_included": [
+    "ads",
+    "ads_data",
+    "customer",
+    "customer_data",
+    "sales",
+    "sales_data",
+    "social",
+    "social_data"
+  ]
+}

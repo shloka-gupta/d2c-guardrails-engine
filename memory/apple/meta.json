@@ -1,0 +1,10 @@
+{
+  "brand": "Apple",
+  "analyzed_at": "2026-05-28T21:16:42.162Z",
+  "layers_included": [
+    "ads",
+    "customers",
+    "sales",
+    "social"
+  ]
+}

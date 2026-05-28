@@ -1,0 +1,95 @@
+{
+  "brand": "Nykaa",
+  "layer": "social",
+  "period": "2023-Q3",
+  "data": [
+    {
+      "date": "2023-07-05",
+      "platform": "Instagram",
+      "post_type": "Image",
+      "topic": "Nykaa Fashion Sale",
+      "likes": 1500,
+      "comments": 140,
+      "shares": 60,
+      "reach": 50000,
+      "sentiment": "positive"
+    },
+    {
+      "date": "2023-07-19",
+      "platform": "Facebook",
+      "post_type": "Video",
+      "topic": "Nykaa Pink Friday Announcement",
+      "likes": 2300,
+      "comments": 210,
+      "shares": 110,
+      "reach": 75000,
+      "sentiment": "positive"
+    },
+    {
+      "date": "2023-08-01",
+      "platform": "Twitter",
+      "post_type": "Tweet",
+      "topic": "Nykaa Luxe Launch",
+      "likes": 1200,
+      "comments": 60,
+      "shares": 50,
+      "reach": 30000,
+      "sentiment": "neutral"
+    },
+    {
+      "date": "2023-08-15",
+      "platform": "Instagram",
+      "post_type": "Reel",
+      "topic": "Independence Day Campaign",
+      "likes": 1800,
+      "comments": 150,
+      "shares": 80,
+      "reach": 60000,
+      "sentiment": "positive"
+    },
+    {
+      "date": "2023-08-20",
+      "platform": "Facebook",
+      "post_type": "Image",
+      "topic": "Nykaa Product Recall",
+      "likes": 500,
+      "comments": 400,
+      "shares": 200,
+      "reach": 30000,
+      "sentiment": "negative"
+    },
+    {
+      "date": "2023-09-01",
+      "platform": "Twitter",
+      "post_type": "Tweet",
+      "topic": "Eco-Friendly Packaging Introduction",
+      "likes": 1800,
+      "comments": 90,
+      "shares": 140,
+      "reach": 40000,
+      "sentiment": "positive"
+    },
+    {
+      "date": "2023-09-15",
+      "platform": "Instagram",
+      "post_type": "Story",
+      "topic": "Back to School Discount Offer",
+      "likes": 3000,
+      "comments": 200,
+      "shares": 100,
+      "reach": 80000,
+      "sentiment": "positive"
+    },
+    {
+      "date": "2023-09-29",
+      "platform": "Facebook",
+      "post_type": "Video",
+      "topic": "Nykaa Skin Secrets Range",
+      "likes": 2100,
+      "comments": 185,
+      "shares": 150,
+      "reach": 70000,
+      "sentiment": "positive"
+    }
+  ]
+}

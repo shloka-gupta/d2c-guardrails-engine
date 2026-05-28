@@ -1,0 +1,95 @@
+{
+  "brand": "Apple",
+  "layer": "social",
+  "period": "2023-Q3",
+  "data": [
+    {
+      "date": "2023-07-05",
+      "platform": "Twitter",
+      "post_type": "video",
+      "topic": "iPhone 14 Battery",
+      "likes": 15000,
+      "comments": 500,
+      "shares": 1200,
+      "reach": 2000000,
+      "sentiment": "neutral"
+    },
+    {
+      "date": "2023-07-10",
+      "platform": "Instagram",
+      "post_type": "image",
+      "topic": "MacBook Air M2",
+      "likes": 45000,
+      "comments": 900,
+      "shares": 2100,
+      "reach": 3000000,
+      "sentiment": "positive"
+    },
+    {
+      "date": "2023-07-20",
+      "platform": "Facebook",
+      "post_type": "status",
+      "topic": "iOS 16 Features",
+      "likes": 6000,
+      "comments": 300,
+      "shares": 600,
+      "reach": 1000000,
+      "sentiment": "positive"
+    },
+    {
+      "date": "2023-08-01",
+      "platform": "Twitter",
+      "post_type": "tweet",
+      "topic": "iPhone 14 Camera",
+      "likes": 12000,
+      "comments": 400,
+      "shares": 900,
+      "reach": 1500000,
+      "sentiment": "neutral"
+    },
+    {
+      "date": "2023-08-15",
+      "platform": "Instagram",
+      "post_type": "reel",
+      "topic": "AirPods Pro",
+      "likes": 23000,
+      "comments": 500,
+      "shares": 1300,
+      "reach": 2500000,
+      "sentiment": "positive"
+    },
+    {
+      "date": "2023-08-25",
+      "platform": "Facebook",
+      "post_type": "video",
+      "topic": "Apple Security Issues",
+      "likes": 8000,
+      "comments": 1500,
+      "shares": 1700,
+      "reach": 2800000,
+      "sentiment": "negative"
+    },
+    {
+      "date": "2023-09-05",
+      "platform": "Twitter",
+      "post_type": "poll",
+      "topic": "Apple Pay Issues",
+      "likes": 7000,
+      "comments": 1100,
+      "shares": 400,
+      "reach": 1800000,
+      "sentiment": "negative"
+    },
+    {
+      "date": "2023-09-20",
+      "platform": "Instagram",
+      "post_type": "story",
+      "topic": "Sustainability Initiatives",
+      "likes": 15500,
+      "comments": 300,
+      "shares": 800,
+      "reach": 2200000,
+      "sentiment": "positive"
+    }
+  ]
+}

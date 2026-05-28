@@ -1,0 +1,79 @@
+{
+  "brand": "Nykaa",
+  "layer": "sales",
+  "period": "2023-Q3",
+  "data": [
+    {
+      "date": "2023-07-05",
+      "sku": "Nykaa-Matte-to-Last-Liquid-Lipstick",
+      "units_sold": 500,
+      "revenue_inr": 250000,
+      "channel": "online",
+      "refunds": 10,
+      "new_customers": 150
+    },
+    {
+      "date": "2023-07-19",
+      "sku": "Nykaa-Skin-Potion",
+      "units_sold": 300,
+      "revenue_inr": 150000,
+      "channel": "offline",
+      "refunds": 5,
+      "new_customers": 50
+    },
+    {
+      "date": "2023-08-01",
+      "sku": "Nykaa-Wanderlust-Body-Lotion",
+      "units_sold": 400,
+      "revenue_inr": 120000,
+      "channel": "online",
+      "refunds": 8,
+      "new_customers": 120
+    },
+    {
+      "date": "2023-08-15",
+      "sku": "Nykaa-Nail-Enamel",
+      "units_sold": 600,
+      "revenue_inr": 180000,
+      "channel": "offline",
+      "refunds": 12,
+      "new_customers": 100
+    },
+    {
+      "date": "2023-08-20",
+      "sku": "Nykaa-Luxury-Perfume",
+      "units_sold": 200,
+      "revenue_inr": 300000,
+      "channel": "online",
+      "refunds": 40,
+      "new_customers": 30
+    },
+    {
+      "date": "2023-09-01",
+      "sku": "Nykaa-Natural-Face-Sheet-Mask",
+      "units_sold": 750,
+      "revenue_inr": 375000,
+      "channel": "online",
+      "refunds": 15,
+      "new_customers": 200
+    },
+    {
+      "date": "2023-09-15",
+      "sku": "Nykaa-Soothing-Gel",
+      "units_sold": 850,
+      "revenue_inr": 255000,
+      "channel": "offline",
+      "refunds": 20,
+      "new_customers": 180
+    },
+    {
+      "date": "2023-09-29",
+      "sku": "Nykaa-Skin-Secrets-Rose-Water",
+      "units_sold": 900,
+      "revenue_inr": 270000,
+      "channel": "online",
+      "refunds": 10,
+      "new_customers": 250
+    }
+  ]
+}

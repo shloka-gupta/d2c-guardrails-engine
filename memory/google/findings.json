@@ -1,0 +1,279 @@
+{
+  "generated_at": "2026-05-28T11:45:40.414Z",
+  "brand": "Google",
+  "record_count": 8,
+  "baselines": {
+    "cx_risk": 0.3662499999999999,
+    "refund_rate": 3.3100000000000005,
+    "true_roas": 20.90125,
+    "reach": 205625,
+    "new_cust": 2031.25
+  },
+  "summary": {
+    "total": 15,
+    "block": 1,
+    "warn": 10,
+    "pass": 4
+  },
+  "findings": [
+    {
+      "check": "Crisis Blindspot",
+      "severity": "block",
+      "date": "2023-08-05",
+      "sku": "google stadia controller",
+      "detail": "cx_risk_score is 1.76 (baseline: 0.37, threshold: 0.73). Ad spend was 1,500,000 with status \"active\". Support tickets: 400. Rating: 2.8.",
+      "layers": [
+        "customer",
+        "ads"
+      ],
+      "numbers": {
+        "cx_risk": 1.76,
+        "baseline": 0.3662499999999999,
+        "spend": 1500000
+      }
+    },
+    {
+      "check": "Sentiment Mismatch",
+      "severity": "warn",
+      "date": "2023-07-15",
+      "sku": "google nest hub",
+      "detail": "Social sentiment is positive but customer review sentiment is neutral. Creator content and real buyer experience are misaligned. Top complaint: \"Connectivity Issues\". NPS: 60.",
+      "layers": [
+        "social",
+        "customer"
+      ],
+      "numbers": {
+        "social_sentiment": "positive",
+        "customer_sentiment": "neutral",
+        "nps": 60
+      }
+    },
+    {
+      "check": "Sentiment Mismatch",
+      "severity": "warn",
+      "date": "2023-08-05",
+      "sku": "google home",
+      "detail": "Social sentiment is negative but customer review sentiment is positive. Creator content and real buyer experience are misaligned. Top complaint: \"Voice Recognition Errors\". NPS: 70.",
+      "layers": [
+        "social",
+        "customer"
+      ],
+      "numbers": {
+        "social_sentiment": "negative",
+        "customer_sentiment": "positive",
+        "nps": 70
+      }
+    },
+    {
+      "check": "Sentiment Mismatch",
+      "severity": "warn",
+      "date": "2023-08-28",
+      "sku": "pixel",
+      "detail": "Social sentiment is neutral but customer review sentiment is positive. Creator content and real buyer experience are misaligned. Top complaint: \"Screen Glitches\". NPS: 66.",
+      "layers": [
+        "social",
+        "customer"
+      ],
+      "numbers": {
+        "social_sentiment": "neutral",
+        "customer_sentiment": "positive",
+        "nps": 66
+      }
+    },
+    {
+      "check": "ROAS Underclaim",
+      "severity": "warn",
+      "date": "2023-07-15",
+      "sku": "pixel 7 pro",
+      "detail": "Platform reports ROAS of 3.2x but true ROAS (revenue ÷ spend) is 32x. Gap of 28.80x. Platform is underclaiming — attribution window may be too narrow.",
+      "layers": [
+        "ads",
+        "sales"
+      ],
+      "numbers": {
+        "platform_roas": 3.2,
+        "true_roas": 32,
+        "gap": 28.8,
+        "ratio": 10
+      }
+    },
+    {
+      "check": "ROAS Underclaim",
+      "severity": "warn",
+      "date": "2023-07-15",
+      "sku": "google nest hub",
+      "detail": "Platform reports ROAS of 1.5x but true ROAS (revenue ÷ spend) is 15x. Gap of 13.50x. Platform is underclaiming — attribution window may be too narrow.",
+      "layers": [
+        "ads",
+        "sales"
+      ],
+      "numbers": {
+        "platform_roas": 1.5,
+        "true_roas": 15,
+        "gap": 13.5,
+        "ratio": 10
+      }
+    },
+    {
+      "check": "ROAS Underclaim",
+      "severity": "warn",
+      "date": "2023-08-05",
+      "sku": "google home",
+      "detail": "Platform reports ROAS of 3x but true ROAS (revenue ÷ spend) is 11.43x. Gap of 8.43x. Platform is underclaiming — attribution window may be too narrow.",
+      "layers": [
+        "ads",
+        "sales"
+      ],
+      "numbers": {
+        "platform_roas": 3,
+        "true_roas": 11.43,
+        "gap": 8.43,
+        "ratio": 3.81
+      }
+    },
+    {
+      "check": "ROAS Underclaim",
+      "severity": "warn",
+      "date": "2023-08-28",
+      "sku": "pixel",
+      "detail": "Platform reports ROAS of 3x but true ROAS (revenue ÷ spend) is 30x. Gap of 27.00x. Platform is underclaiming — attribution window may be too narrow.",
+      "layers": [
+        "ads",
+        "sales"
+      ],
+      "numbers": {
+        "platform_roas": 3,
+        "true_roas": 30,
+        "gap": 27,
+        "ratio": 10
+      }
+    },
+    {
+      "check": "ROAS Underclaim",
+      "severity": "warn",
+      "date": "2023-09-10",
+      "sku": "google assistant",
+      "detail": "Platform reports ROAS of 2.8x but true ROAS (revenue ÷ spend) is 28x. Gap of 25.20x. Platform is underclaiming — attribution window may be too narrow.",
+      "layers": [
+        "ads",
+        "sales"
+      ],
+      "numbers": {
+        "platform_roas": 2.8,
+        "true_roas": 28,
+        "gap": 25.2,
+        "ratio": 10
+      }
+    },
+    {
+      "check": "ROAS Underclaim",
+      "severity": "warn",
+      "date": "2023-09-18",
+      "sku": "pixel tablet",
+      "detail": "Platform reports ROAS of 2.1x but true ROAS (revenue ÷ spend) is 21x. Gap of 18.90x. Platform is underclaiming — attribution window may be too narrow.",
+      "layers": [
+        "ads",
+        "sales"
+      ],
+      "numbers": {
+        "platform_roas": 2.1,
+        "true_roas": 21,
+        "gap": 18.9,
+        "ratio": 10
+      }
+    },
+    {
+      "check": "ROAS Underclaim",
+      "severity": "warn",
+      "date": "2023-09-30",
+      "sku": "google ai software",
+      "detail": "Platform reports ROAS of 4.5x but true ROAS (revenue ÷ spend) is 27.78x. Gap of 23.28x. Platform is underclaiming — attribution window may be too narrow.",
+      "layers": [
+        "ads",
+        "sales"
+      ],
+      "numbers": {
+        "platform_roas": 4.5,
+        "true_roas": 27.78,
+        "gap": 23.28,
+        "ratio": 6.17
+      }
+    },
+    {
+      "check": "Social Lift Success",
+      "severity": "pass",
+      "date": "2023-07-15",
+      "sku": "pixel 7 pro",
+      "detail": "High social reach (270,000) converted well — 12.593 new customers per 1000 reach. Above average acquisition efficiency.",
+      "layers": [
+        "social",
+        "sales"
+      ],
+      "numbers": {
+        "reach": 270000,
+        "new_customers": 3400,
+        "social_to_acq_rate": 12.593
+      }
+    },
+    {
+      "check": "Healthy SKU Signal",
+      "severity": "pass",
+      "date": "2023-07-15",
+      "sku": "pixel 7 pro",
+      "detail": "All 4 layers positive (5/5 signals). Reach: 270,000, Units: 4,000, NPS: 65, Platform ROAS: 3.2x, True ROAS: 32x. This is the winning template to replicate.",
+      "layers": [
+        "social",
+        "sales",
+        "customer",
+        "ads"
+      ],
+      "numbers": {
+        "nps": 65,
+        "units": 4000,
+        "roas": 3.2,
+        "true_roas": 32,
+        "health_score": "5/5"
+      }
+    },
+    {
+      "check": "Healthy SKU Signal",
+      "severity": "pass",
+      "date": "2023-09-10",
+      "sku": "google assistant",
+      "detail": "All 4 layers positive (5/5 signals). Reach: 130,000, Units: 3,500, NPS: 72, Platform ROAS: 2.8x, True ROAS: 28x. This is the winning template to replicate.",
+      "layers": [
+        "social",
+        "sales",
+        "customer",
+        "ads"
+      ],
+      "numbers": {
+        "nps": 72,
+        "units": 3500,
+        "roas": 2.8,
+        "true_roas": 28,
+        "health_score": "5/5"
+      }
+    },
+    {
+      "check": "Healthy SKU Signal",
+      "severity": "pass",
+      "date": "2023-09-30",
+      "sku": "google ai software",
+      "detail": "All 4 layers positive (4/5 signals). Reach: 250,000, Units: 2,500, NPS: 78, Platform ROAS: 4.5x, True ROAS: 27.78x. This is the winning template to replicate.",
+      "layers": [
+        "social",
+        "sales",
+        "customer",
+        "ads"
+      ],
+      "numbers": {
+        "nps": 78,
+        "units": 2500,
+        "roas": 4.5,
+        "true_roas": 27.78,
+        "health_score": "4/5"
+      }
+    }
+  ]
+}

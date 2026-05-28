@@ -1,0 +1,95 @@
+{
+  "brand": "Mamaearth",
+  "layer": "ads",
+  "period": "2023-Q3",
+  "data": [
+    {
+      "date": "2023-07-05",
+      "sku": "Bamboo Baby Wipes",
+      "spend_inr": 150000,
+      "clicks": 4500,
+      "impressions": 150000,
+      "roas": 2,
+      "ctr": 3,
+      "campaign_type": "awareness",
+      "status": "active"
+    },
+    {
+      "date": "2023-07-14",
+      "sku": "Ubtan Face Wash",
+      "spend_inr": 200000,
+      "clicks": 4700,
+      "impressions": 170000,
+      "roas": 1.8,
+      "ctr": 2.76,
+      "campaign_type": "conversion",
+      "status": "active"
+    },
+    {
+      "date": "2023-07-27",
+      "sku": "Plastic Positive Initiative Pack",
+      "spend_inr": 50000,
+      "clicks": 1200,
+      "impressions": 50000,
+      "roas": 2,
+      "ctr": 2.4,
+      "campaign_type": "branding",
+      "status": "paused"
+    },
+    {
+      "date": "2023-08-08",
+      "sku": "Onion Hair Oil",
+      "spend_inr": 180000,
+      "clicks": 6000,
+      "impressions": 200000,
+      "roas": 2.5,
+      "ctr": 3,
+      "campaign_type": "conversion",
+      "status": "active"
+    },
+    {
+      "date": "2023-08-21",
+      "sku": "Charcoal Face Mask",
+      "spend_inr": 120000,
+      "clicks": 800,
+      "impressions": 80000,
+      "roas": 1.2,
+      "ctr": 1,
+      "campaign_type": "awareness",
+      "status": "active"
+    },
+    {
+      "date": "2023-09-02",
+      "sku": "Natural Skincare Kit",
+      "spend_inr": 90000,
+      "clicks": 2500,
+      "impressions": 90000,
+      "roas": 2.5,
+      "ctr": 2.78,
+      "campaign_type": "conversion",
+      "status": "active"
+    },
+    {
+      "date": "2023-09-15",
+      "sku": "Vitamin C Serum",
+      "spend_inr": 180000,
+      "clicks": 5000,
+      "impressions": 150000,
+      "roas": 2.7,
+      "ctr": 3.33,
+      "campaign_type": "retargeting",
+      "status": "active"
+    },
+    {
+      "date": "2023-09-28",
+      "sku": "BhringAmla Hair Oil",
+      "spend_inr": 160000,
+      "clicks": 4300,
+      "impressions": 130000,
+      "roas": 3,
+      "ctr": 3.31,
+      "campaign_type": "branding",
+      "status": "active"
+    }
+  ]
+}
