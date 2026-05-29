@@ -5,8 +5,8 @@ const SERVER = import.meta.env.VITE_SERVER_URL || "http://localhost:3001";
 
 export default function App() {
   const [messages, setMessages] = useState([
-    { role: "bot", text: "Hey! Which brand do you want to analyze? Just type the brand name." }
-  ]);
+  { role: "bot", text: "Hey! I'm the D2C Guardrails Engine 🛡️\n\nI analyze brands by joining their social, sales, customer, and ads data together — finding patterns that are invisible when you look at each layer alone.\n\nI can:\n→ Analyze any D2C brand\n→ Find cross-layer risks and opportunities\n→ Validate campaign ideas before you launch\n→ Tell you what worked and what didn't\n\nJust type a brand name to get started. Try \"Mamaearth\" for a deep analysis with real data." }
+]);
   const [input, setInput]       = useState("");
   const [loading, setLoading]   = useState(false);
   const [brand, setBrand]       = useState(null);

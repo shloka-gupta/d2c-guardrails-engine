@@ -444,12 +444,15 @@ app.post("/chat", async (req, res) => {
         messages: [
           {
             role: "system",
-            content: `You are a D2C brand strategist for ${currentBrand}.
+            content: `You are a friendly D2C brand advisor for ${currentBrand}.
 Use these guardrail rules to evaluate the campaign idea:
 ${JSON.stringify(rules, null, 2)}
 
-Reply with PASS, WARN, or BLOCK and clear reasoning.
-Reference specific rule IDs. Keep it under 150 words. Be direct.`
+Reply with PASS, WARN, or BLOCK.
+Explain in simple plain English — no jargon, no metric names.
+Write like you're talking to a brand manager, not an engineer.
+Always end with 2-3 bullet points on exactly what to do next.
+Keep it under 150 words.`
           },
           ...history,
           { role: "user", content: message }
