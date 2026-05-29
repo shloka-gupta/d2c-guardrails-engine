@@ -53,9 +53,12 @@ useEffect(() => {
 
           const s = data.summary;
           addMessage("bot",
-            `🎉 Done! Here's what I found about **${data.brand}**:\n\n` +
-            `🔴 ${s.block} blocks  🟡 ${s.warn} warnings  🟢 ${s.pass} passes\n\n` +
-            `Ask me anything about this brand or test a campaign idea!`
+            `🎉 Done! Here's what I found about ${data.brand}:\n\n` +
+`🔴 ${s.block} blocks  🟡 ${s.warn} warnings  🟢 ${s.pass} passes\n\n` +
+`You can now:\n` +
+`→ Ask "what worked?" or "what didn't work?"\n` +
+`→ Ask "should I launch ads for [product]?"\n` +
+`→ Type another brand name to switch`
           );
           setBrand(data.brand);
         }
@@ -117,11 +120,19 @@ useEffect(() => {
     }
   }
 
-  return (
+ return (
+  <div style={{
+    minHeight: "100vh",
+    background: "#f0f0f0",
+    display: "flex",
+    justifyContent: "center",
+  }}>
     <div style={{
       display: "flex", flexDirection: "column",
-      height: "100vh", maxWidth: "720px",
-      margin: "0 auto", fontFamily: "sans-serif"
+      height: "100vh", width: "100%", maxWidth: "720px",
+      fontFamily: "sans-serif",
+      background: "#fff",
+      boxShadow: "0 0 40px rgba(0,0,0,0.08)"
     }}>
 
       {/* Header */}
@@ -217,5 +228,6 @@ useEffect(() => {
       </div>
 
     </div>
+  </div>
   );
 }
