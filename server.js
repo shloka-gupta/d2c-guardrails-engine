@@ -524,8 +524,9 @@ app.get("/status/:jobId", (req, res) => {
   });
 });
 
-app.listen(3001, () => {
-  console.log("\n🚀 Server running on http://localhost:3001");
+const PORT = process.env.PORT || 3001;
+app.listen(PORT, () => {
+ console.log(`\n🚀 Server running on port ${PORT}`);
   console.log("POST /chat       — main chat route");
   console.log("GET  /status/:id — poll pipeline progress\n");
 });
