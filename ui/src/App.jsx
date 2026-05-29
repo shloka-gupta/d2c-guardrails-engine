@@ -170,7 +170,7 @@ useEffect(() => {
               fontSize: "14px", lineHeight: "1.6",
               whiteSpace: "pre-wrap"
             }}>
-              {m.text}
+              {m.text.replace(/\*\*(.*?)\*\*/g, '$1')}
             </div>
           </div>
         ))}
