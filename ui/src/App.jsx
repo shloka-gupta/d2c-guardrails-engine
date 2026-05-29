@@ -123,6 +123,7 @@ useEffect(() => {
  return (
   <div style={{
     minHeight: "100vh",
+    width: "100%",
     background: "#f0f0f0",
     display: "flex",
     justifyContent: "center",
