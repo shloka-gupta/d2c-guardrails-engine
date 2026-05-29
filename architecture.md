@@ -5,6 +5,7 @@
 A pipeline that ingests, unifies, and correlates four D2C data layers to surface cross-layer insights and validate campaign decisions through a conversational interface.
 
 ---
+<img width="1040" height="1053" alt="image" src="https://github.com/user-attachments/assets/fd0a31a3-cb1d-4f07-b6d4-0951ef5569bd" />
 
 ## Components
 
