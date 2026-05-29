@@ -1,8 +1,6 @@
-.env 
-node_modules/ 
-memory/ 
-data/mamaearth/unified_data.json 
-data/ 
-memory/ 
-datasets/ 
-analysis/ 
+.env
+node_modules/
+datasets/
+data/*/unified_data.json
+data/*/data_provenance.md
+memory/*/unified_data.json

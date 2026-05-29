@@ -1,0 +1,162 @@
+{
+  "schema_version": "1.0",
+  "brand": "mamaearth",
+  "rules": [
+    {
+      "id": "GR-001",
+      "name": "Monitor CX Risk Score",
+      "category": "customer_interaction",
+      "severity": "warn",
+      "derived_from": "Crisis Blindspot",
+      "condition": {
+        "metric": "cx_risk_score",
+        "operator": "gt",
+        "threshold": 0.3
+      },
+      "reason": "High customer experience risk score detected, indicating potential customer dissatisfaction."
+    },
+    {
+      "id": "GR-002",
+      "name": "Evaluate Support Ticket Volume",
+      "category": "customer_interaction",
+      "severity": "warn",
+      "derived_from": "Crisis Blindspot",
+      "condition": {
+        "metric": "customer.support_tickets",
+        "operator": "gt",
+        "threshold": 150
+      },
+      "reason": "A high volume of support tickets suggests issues that may be affecting customer satisfaction."
+    },
+    {
+      "id": "GR-003",
+      "name": "Assess Customer Rating",
+      "category": "customer_interaction",
+      "severity": "warn",
+      "derived_from": "Crisis Blindspot",
+      "condition": {
+        "metric": "customer.avg_rating",
+        "operator": "lt",
+        "threshold": 4
+      },
+      "reason": "Average customer rating is lower than expected, indicating potential product issues."
+    },
+    {
+      "id": "GR-004",
+      "name": "Check NPS Values",
+      "category": "customer_interaction",
+      "severity": "warn",
+      "derived_from": "Healthy SKU Signal",
+      "condition": {
+        "metric": "customer.nps",
+        "operator": "lt",
+        "threshold": 55
+      },
+      "reason": "NPS below expected threshold could suggest declining customer loyalty."
+    },
+    {
+      "id": "GR-005",
+      "name": "Evaluate ROAS",
+      "category": "campaign_launch",
+      "severity": "warn",
+      "derived_from": "Crisis Blindspot",
+      "condition": {
+        "metric": "ads.roas",
+        "operator": "lt",
+        "threshold": 3.5
+      },
+      "reason": "Return on ad spend is lower than expected, affecting campaign profitability."
+    },
+    {
+      "id": "GR-006",
+      "name": "Seek Positive Review Sentiment",
+      "category": "customer_interaction",
+      "severity": "warn",
+      "derived_from": "Crisis Blindspot",
+      "condition": {
+        "metric": "customer.review_sentiment",
+        "operator": "lt",
+        "threshold": 0.7
+      },
+      "reason": "Negative review sentiment could harm brand perception."
+    },
+    {
+      "id": "GR-007",
+      "name": "Monitor Refund Rate",
+      "category": "customer_interaction",
+      "severity": "warn",
+      "derived_from": "Crisis Blindspot",
+      "condition": {
+        "metric": "refund_rate",
+        "operator": "gt",
+        "threshold": 0.05
+      },
+      "reason": "Elevated refund rates may indicate issues with product quality or customer expectations."
+    },
+    {
+      "id": "GR-008",
+      "name": "Check Ad Status",
+      "category": "campaign_launch",
+      "severity": "warn",
+      "derived_from": "Crisis Blindspot",
+      "condition": {
+        "metric": "ads.status",
+        "operator": "eq",
+        "threshold": "inactive"
+      },
+      "reason": "Campaign ads should be active to ensure continuity of marketing efforts."
+    },
+    {
+      "id": "GR-009",
+      "name": "Track Social Reach Impact",
+      "category": "campaign_launch",
+      "severity": "warn",
+      "derived_from": "Healthy SKU Signal",
+      "condition": {
+        "metric": "social.reach",
+        "operator": "lt",
+        "threshold": 1000000
+      },
+      "reason": "Low social reach may impact brand visibility and acquisition rates."
+    },
+    {
+      "id": "GR-010",
+      "name": "Ensure Inventory Confirmation",
+      "category": "product_launch",
+      "severity": "warn",
+      "derived_from": "Crisis Blindspot",
+      "condition": {
+        "metric": "inventory_confirmed",
+        "operator": "eq",
+        "threshold": false
+      },
+      "reason": "Inventory not confirmed, posing a risk for stock-outs and customer dissatisfaction."
+    },
+    {
+      "id": "GR-011",
+      "name": "Evaluate Sentiment Consistency",
+      "category": "customer_interaction",
+      "severity": "warn",
+      "derived_from": "Crisis Blindspot",
+      "condition": {
+        "metric": "sentiment_mismatch",
+        "operator": "gt",
+        "threshold": 0.1
+      },
+      "reason": "Inconsistent customer sentiment may indicate emerging issues or dissatisfaction."
+    },
+    {
+      "id": "GR-012",
+      "name": "Confirm Platform ROAS Consistency",
+      "category": "campaign_launch",
+      "severity": "warn",
+      "derived_from": "Healthy SKU Signal",
+      "condition": {
+        "metric": "platform_roas_to_true_roas_ratio",
+        "operator": "lt",
+        "threshold": 0.5
+      },
+      "reason": "Significant difference between platform-reported and true ROAS can lead to misinformed ad spend decisions."
+    }
+  ]
+}
