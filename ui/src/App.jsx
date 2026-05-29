@@ -127,10 +127,12 @@ useEffect(() => {
     background: "#f0f0f0",
     display: "flex",
     justifyContent: "center",
+    alignItems: "stretch",
   }}>
     <div style={{
       display: "flex", flexDirection: "column",
       height: "100vh", width: "100%", maxWidth: "720px",
+      margin: "0 auto",
       fontFamily: "sans-serif",
       background: "#fff",
       boxShadow: "0 0 40px rgba(0,0,0,0.08)"
@@ -176,7 +178,6 @@ useEffect(() => {
           </div>
         ))}
 
-        {/* Loading indicator */}
         {loading && messages[messages.length - 1]?.role !== "bot" && (
           <div style={{ display: "flex", justifyContent: "flex-start" }}>
             <div style={{
@@ -230,5 +231,5 @@ useEffect(() => {
 
     </div>
   </div>
-  );
+);
 }
