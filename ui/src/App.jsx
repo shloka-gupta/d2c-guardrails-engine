@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import axios from "axios";
 
-const SERVER = "http://localhost:3001";
+const SERVER = import.meta.env.VITE_SERVER_URL || "http://localhost:3001";
 
 export default function App() {
   const [messages, setMessages] = useState([
