@@ -12,10 +12,16 @@ export default function App() {
   const [brand, setBrand]       = useState(null);
   const bottomRef               = useRef(null);
 
+
   // Auto scroll to bottom on new message
-  useEffect(() => {
-    bottomRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, [messages]);
+useEffect(() => {
+  bottomRef.current?.scrollIntoView({ behavior: "smooth" });
+}, [messages]);
+
+// Wake up backend on load
+useEffect(() => {
+  fetch(`${SERVER}/status/ping`).catch(() => {});
+}, []);
 
   function addMessage(role, text) {
     setMessages(prev => [...prev, { role, text }]);
