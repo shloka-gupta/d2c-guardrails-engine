@@ -106,7 +106,6 @@ Validator accepts natural language campaign ideas and returns:
 
 1. **Aggregated findings** — group findings by SKU before sending to AI (reduces tokens by 99%)
 2. **Vector DB** — store findings as embeddings for semantic search across brands
-3. **LLM provider switch** — env variable to swap between LLMs
-4. **Real API ingestion** — YouTube Data API for social layer, Amazon reviews scraper
-5. **Persistent memory** — Redis or Supabase instead of in-process memory
-6. **Two-layer validator** — code checks core metrics, AI checks brand-specific metrics
+3. **Real API ingestion** — YouTube Data API for social layer, Amazon reviews scraper
+4. **Persistent memory** — Redis or Supabase instead of in-process memory
+5. **Two-layer validator** — code checks core metrics, AI checks brand-specific metrics
