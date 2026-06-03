@@ -1,0 +1,10 @@
+{
+  "brand_name": "cococoal",
+  "ticker": "COCOCO",
+  "currency": "INR",
+  "currency_symbol": "₹",
+  "rating_scale": 5,
+  "revenue_field": "revenue_inr",
+  "spend_field": "spend_inr",
+  "provenance_notes": "Data for cococoal. Generated/loaded by pipeline on 2026-06-02T11:44:23.440Z."
+}

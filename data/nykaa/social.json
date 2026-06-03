@@ -1,0 +1,95 @@
+{
+  "brand": "Nykaa",
+  "layer": "social",
+  "period": "2023-Q3",
+  "data": [
+    {
+      "date": "2023-07-05",
+      "platform": "Instagram",
+      "post_type": "reel",
+      "topic": "Nykaa Pink Luxe Store Launch",
+      "likes": 8200,
+      "comments": 600,
+      "shares": 450,
+      "reach": 150000,
+      "sentiment": "positive"
+    },
+    {
+      "date": "2023-07-15",
+      "platform": "Twitter",
+      "post_type": "tweet",
+      "topic": "Monsoon Skincare Tips",
+      "likes": 2100,
+      "comments": 300,
+      "shares": 130,
+      "reach": 40000,
+      "sentiment": "positive"
+    },
+    {
+      "date": "2023-07-20",
+      "platform": "Facebook",
+      "post_type": "video",
+      "topic": "Nykaa Fashion Sale",
+      "likes": 5400,
+      "comments": 150,
+      "shares": 280,
+      "reach": 80000,
+      "sentiment": "positive"
+    },
+    {
+      "date": "2023-08-02",
+      "platform": "Instagram",
+      "post_type": "post",
+      "topic": "Vegan Beauty Debate",
+      "likes": 7600,
+      "comments": 850,
+      "shares": 500,
+      "reach": 110000,
+      "sentiment": "neutral"
+    },
+    {
+      "date": "2023-08-14",
+      "platform": "Twitter",
+      "post_type": "tweet",
+      "topic": "Nykaa Independence Day Offers",
+      "likes": 3900,
+      "comments": 200,
+      "shares": 170,
+      "reach": 65000,
+      "sentiment": "positive"
+    },
+    {
+      "date": "2023-08-27",
+      "platform": "Facebook",
+      "post_type": "post",
+      "topic": "Nykaa Lipstick Shades",
+      "likes": 4300,
+      "comments": 5000,
+      "shares": 200,
+      "reach": 60000,
+      "sentiment": "negative"
+    },
+    {
+      "date": "2023-09-12",
+      "platform": "Instagram",
+      "post_type": "story",
+      "topic": "Nykaa Beauty Products Quality",
+      "likes": 8100,
+      "comments": 1200,
+      "shares": 560,
+      "reach": 120000,
+      "sentiment": "negative"
+    },
+    {
+      "date": "2023-09-21",
+      "platform": "Facebook",
+      "post_type": "video",
+      "topic": "Nykaa Autumn Collection",
+      "likes": 6700,
+      "comments": 700,
+      "shares": 450,
+      "reach": 95000,
+      "sentiment": "positive"
+    }
+  ]
+}

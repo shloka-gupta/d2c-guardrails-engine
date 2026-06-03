@@ -1,0 +1,135 @@
+{
+  "generated_at": "2026-06-02T11:43:28.498Z",
+  "brand": "cocacola",
+  "record_count": 8,
+  "sampled": 8,
+  "baselines": {
+    "cx_risk": null,
+    "refund_rate": 0.5925,
+    "true_roas": 5.8275,
+    "reach": 129375,
+    "new_cust": 4212.5
+  },
+  "summary": {
+    "total": 7,
+    "block": 0,
+    "warn": 2,
+    "pass": 5
+  },
+  "findings": [
+    {
+      "check": "ROAS Underclaim",
+      "severity": "warn",
+      "date": "2023-08-02",
+      "sku": "fanta orange",
+      "detail": "Platform reports ROAS of 5x but true ROAS (revenue ÷ spend) is 7.6x. Gap of 2.60x. Platform is underclaiming — attribution window may be too narrow.",
+      "layers": [
+        "ads",
+        "sales"
+      ],
+      "numbers": {
+        "platform_roas": 5,
+        "true_roas": 7.6,
+        "gap": 2.6,
+        "ratio": 1.52
+      }
+    },
+    {
+      "check": "ROAS Underclaim",
+      "severity": "warn",
+      "date": "2023-08-10",
+      "sku": "sprite",
+      "detail": "Platform reports ROAS of 3x but true ROAS (revenue ÷ spend) is 7.25x. Gap of 4.25x. Platform is underclaiming — attribution window may be too narrow.",
+      "layers": [
+        "ads",
+        "sales"
+      ],
+      "numbers": {
+        "platform_roas": 3,
+        "true_roas": 7.25,
+        "gap": 4.25,
+        "ratio": 2.42
+      }
+    },
+    {
+      "check": "Social Lift Success",
+      "severity": "pass",
+      "date": "2023-07-05",
+      "sku": "cocacola classic",
+      "detail": "High social reach (150,000) converted well — 33.333 new customers per 1000 reach. Above average acquisition efficiency.",
+      "layers": [
+        "social",
+        "sales"
+      ],
+      "numbers": {
+        "reach": 150000,
+        "new_customers": 5000,
+        "social_to_acq_rate": 33.333
+      }
+    },
+    {
+      "check": "Social Lift Success",
+      "severity": "pass",
+      "date": "2023-07-19",
+      "sku": "diet coke",
+      "detail": "High social reach (175,000) converted well — 24 new customers per 1000 reach. Above average acquisition efficiency.",
+      "layers": [
+        "social",
+        "sales"
+      ],
+      "numbers": {
+        "reach": 175000,
+        "new_customers": 4200,
+        "social_to_acq_rate": 24
+      }
+    },
+    {
+      "check": "Social Lift Success",
+      "severity": "pass",
+      "date": "2023-07-25",
+      "sku": "cocacola classic",
+      "detail": "High social reach (130,000) converted well — 46.154 new customers per 1000 reach. Above average acquisition efficiency.",
+      "layers": [
+        "social",
+        "sales"
+      ],
+      "numbers": {
+        "reach": 130000,
+        "new_customers": 6000,
+        "social_to_acq_rate": 46.154
+      }
+    },
+    {
+      "check": "Social Lift Success",
+      "severity": "pass",
+      "date": "2023-08-15",
+      "sku": "diet coke",
+      "detail": "High social reach (160,000) converted well — 25.625 new customers per 1000 reach. Above average acquisition efficiency.",
+      "layers": [
+        "social",
+        "sales"
+      ],
+      "numbers": {
+        "reach": 160000,
+        "new_customers": 4100,
+        "social_to_acq_rate": 25.625
+      }
+    },
+    {
+      "check": "Social Lift Success",
+      "severity": "pass",
+      "date": "2023-08-22",
+      "sku": "cocacola zero sugar",
+      "detail": "High social reach (140,000) converted well — 26.429 new customers per 1000 reach. Above average acquisition efficiency.",
+      "layers": [
+        "social",
+        "sales"
+      ],
+      "numbers": {
+        "reach": 140000,
+        "new_customers": 3700,
+        "social_to_acq_rate": 26.429
+      }
+    }
+  ]
+}

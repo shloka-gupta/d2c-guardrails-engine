@@ -1,0 +1,81 @@
+[
+  {
+    "date": "2024-01-05",
+    "subreddit": "IndianSkincareAddicts",
+    "post_id": "nyk001",
+    "title": "Nykaa Pink Friday haul review",
+    "sentiment": "positive",
+    "upvotes": 184,
+    "comments": 42,
+    "mentions_brand": true,
+    "mentioned_skus": [
+      "kay-beauty-foundation",
+      "nykaa-lip-crush"
+    ],
+    "topic": "product_review"
+  },
+  {
+    "date": "2024-01-12",
+    "subreddit": "IndianFashionAddicts",
+    "post_id": "nyk002",
+    "title": "Nykaa delivery took 8 days this time",
+    "sentiment": "negative",
+    "upvotes": 96,
+    "comments": 28,
+    "mentions_brand": true,
+    "mentioned_skus": [],
+    "topic": "delivery_experience"
+  },
+  {
+    "date": "2024-02-02",
+    "subreddit": "IndianSkincareAddicts",
+    "post_id": "nyk003",
+    "title": "Best sunscreen deals during Nykaa sale?",
+    "sentiment": "neutral",
+    "upvotes": 143,
+    "comments": 65,
+    "mentions_brand": true,
+    "mentioned_skus": [
+      "aqualogica-glow-sunscreen"
+    ],
+    "topic": "sale_discussion"
+  },
+  {
+    "date": "2024-02-15",
+    "subreddit": "IndianBeautyDeals",
+    "post_id": "nyk004",
+    "title": "Pink Love Sale discounts are live",
+    "sentiment": "positive",
+    "upvotes": 220,
+    "comments": 34,
+    "mentions_brand": true,
+    "mentioned_skus": [],
+    "topic": "campaign_response"
+  },
+  {
+    "date": "2024-03-03",
+    "subreddit": "IndianSkincareAddicts",
+    "post_id": "nyk005",
+    "title": "Nykaa customer support experience",
+    "sentiment": "negative",
+    "upvotes": 78,
+    "comments": 22,
+    "mentions_brand": true,
+    "mentioned_skus": [],
+    "topic": "customer_support"
+  },
+  {
+    "date": "2024-03-18",
+    "subreddit": "IndianSkincareAddicts",
+    "post_id": "nyk006",
+    "title": "Kay Beauty foundation worth it?",
+    "sentiment": "positive",
+    "upvotes": 267,
+    "comments": 81,
+    "mentions_brand": true,
+    "mentioned_skus": [
+      "kay-beauty-foundation"
+    ],
+    "topic": "product_review"
+  }
+]

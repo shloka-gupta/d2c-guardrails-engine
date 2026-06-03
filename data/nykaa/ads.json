@@ -1,0 +1,95 @@
+{
+  "brand": "Nykaa",
+  "layer": "ads",
+  "period": "2023-Q3",
+  "data": [
+    {
+      "date": "2023-07-05",
+      "sku": "NykaaMatteLip_Lust",
+      "spend_inr": 250000,
+      "clicks": 3000,
+      "impressions": 150000,
+      "roas": 5.04,
+      "ctr": 2,
+      "campaign_type": "brand awareness",
+      "status": "active"
+    },
+    {
+      "date": "2023-07-15",
+      "sku": "NykaaSkinShield_Foundation",
+      "spend_inr": 200000,
+      "clicks": 2200,
+      "impressions": 120000,
+      "roas": 3.6,
+      "ctr": 1.83,
+      "campaign_type": "conversion",
+      "status": "active"
+    },
+    {
+      "date": "2023-07-20",
+      "sku": "NykaaMascara_Volume",
+      "spend_inr": 180000,
+      "clicks": 2500,
+      "impressions": 130000,
+      "roas": 5.2,
+      "ctr": 1.92,
+      "campaign_type": "traffic",
+      "status": "active"
+    },
+    {
+      "date": "2023-08-02",
+      "sku": "NykaaKajal_Black",
+      "spend_inr": 150000,
+      "clicks": 2700,
+      "impressions": 110000,
+      "roas": 2.29,
+      "ctr": 2.45,
+      "campaign_type": "engagement",
+      "status": "active"
+    },
+    {
+      "date": "2023-08-14",
+      "sku": "NykaaBlush_Duo",
+      "spend_inr": 160000,
+      "clicks": 2600,
+      "impressions": 125000,
+      "roas": 3.75,
+      "ctr": 2.08,
+      "campaign_type": "brand awareness",
+      "status": "paused"
+    },
+    {
+      "date": "2023-08-27",
+      "sku": "NykaaLipBomb",
+      "spend_inr": 50000,
+      "clicks": 1500,
+      "impressions": 80000,
+      "roas": 1,
+      "ctr": 1.88,
+      "campaign_type": "conversion",
+      "status": "active"
+    },
+    {
+      "date": "2023-09-12",
+      "sku": "NykaaFoundation_AllDay",
+      "spend_inr": 70000,
+      "clicks": 900,
+      "impressions": 70000,
+      "roas": 1,
+      "ctr": 1.29,
+      "campaign_type": "brand awareness",
+      "status": "paused"
+    },
+    {
+      "date": "2023-09-21",
+      "sku": "NykaaEyeshadow_Palette",
+      "spend_inr": 180000,
+      "clicks": 2800,
+      "impressions": 140000,
+      "roas": 4,
+      "ctr": 2,
+      "campaign_type": "traffic",
+      "status": "active"
+    }
+  ]
+}

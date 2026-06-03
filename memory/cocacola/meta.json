@@ -1,0 +1,10 @@
+{
+  "brand": "cocacola",
+  "analyzed_at": "2026-06-02T11:43:56.740Z",
+  "layers_included": [
+    "ads",
+    "customers",
+    "sales",
+    "social"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "brand": "Nykaa",
+  "layer": "customers",
+  "period": "2023-Q3",
+  "data": [
+    {
+      "date": "2023-07-05",
+      "sku": "NykaaMatteLip_Lust",
+      "support_tickets": 45,
+      "avg_rating": 4.2,
+      "nps": 45,
+      "top_complaint": "Delays in delivery",
+      "review_sentiment": "positive"
+    },
+    {
+      "date": "2023-07-15",
+      "sku": "NykaaSkinShield_Foundation",
+      "support_tickets": 30,
+      "avg_rating": 4,
+      "nps": 50,
+      "top_complaint": "Packaging issues",
+      "review_sentiment": "positive"
+    },
+    {
+      "date": "2023-07-20",
+      "sku": "NykaaMascara_Volume",
+      "support_tickets": 60,
+      "avg_rating": 3.8,
+      "nps": 40,
+      "top_complaint": "Applicator issues",
+      "review_sentiment": "neutral"
+    },
+    {
+      "date": "2023-08-02",
+      "sku": "NykaaKajal_Black",
+      "support_tickets": 20,
+      "avg_rating": 4.5,
+      "nps": 48,
+      "top_complaint": "None",
+      "review_sentiment": "positive"
+    },
+    {
+      "date": "2023-08-14",
+      "sku": "NykaaBlush_Duo",
+      "support_tickets": 50,
+      "avg_rating": 4.1,
+      "nps": 46,
+      "top_complaint": "Color mismatch",
+      "review_sentiment": "positive"
+    },
+    {
+      "date": "2023-08-27",
+      "sku": "NykaaLipBomb",
+      "support_tickets": 320,
+      "avg_rating": 2.2,
+      "nps": 15,
+      "top_complaint": "Allergic reactions",
+      "review_sentiment": "negative"
+    },
+    {
+      "date": "2023-09-12",
+      "sku": "NykaaFoundation_AllDay",
+      "support_tickets": 250,
+      "avg_rating": 3,
+      "nps": 22,
+      "top_complaint": "Breakouts",
+      "review_sentiment": "negative"
+    },
+    {
+      "date": "2023-09-21",
+      "sku": "NykaaEyeshadow_Palette",
+      "support_tickets": 35,
+      "avg_rating": 4.3,
+      "nps": 55,
+      "top_complaint": "Delayed restocking",
+      "review_sentiment": "positive"
+    }
+  ]
+}

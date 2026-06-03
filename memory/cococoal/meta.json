@@ -1,0 +1,10 @@
+{
+  "brand": "cococoal",
+  "analyzed_at": "2026-06-02T11:45:15.116Z",
+  "layers_included": [
+    "ads",
+    "customers",
+    "sales",
+    "social"
+  ]
+}

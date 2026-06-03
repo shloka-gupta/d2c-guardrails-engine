@@ -1,0 +1,162 @@
+{
+  "schema_version": "1.0",
+  "brand": "cocacola",
+  "rules": [
+    {
+      "id": "GR-001",
+      "name": "ROAS Underclaim Alert",
+      "category": "campaign_launch",
+      "severity": "warn",
+      "derived_from": "ROAS Underclaim findings",
+      "condition": {
+        "metric": "platform_roas_to_true_roas_ratio",
+        "operator": "lt",
+        "threshold": 1.5
+      },
+      "reason": "Monitor campaigns where the platform's reported ROAS significantly under-reports actual ROAS."
+    },
+    {
+      "id": "GR-002",
+      "name": "High Social to Acquisition Rate",
+      "category": "campaign_launch",
+      "severity": "warn",
+      "derived_from": "Social Lift Success findings",
+      "condition": {
+        "metric": "social_to_acq_rate",
+        "operator": "lt",
+        "threshold": 20
+      },
+      "reason": "Campaigns with low conversion efficiency from social reach may need optimization."
+    },
+    {
+      "id": "GR-003",
+      "name": "Customer Support Ticket Spike",
+      "category": "customer_interaction",
+      "severity": "warn",
+      "derived_from": "General Risk Management",
+      "condition": {
+        "metric": "customer.support_tickets",
+        "operator": "gt",
+        "threshold": 100
+      },
+      "reason": "A spike in customer support tickets may indicate underlying product or service issues."
+    },
+    {
+      "id": "GR-004",
+      "name": "Negative Customer Feedback",
+      "category": "customer_interaction",
+      "severity": "warn",
+      "derived_from": "General Risk Management",
+      "condition": {
+        "metric": "customer.review_sentiment",
+        "operator": "lt",
+        "threshold": 0.3
+      },
+      "reason": "Low average sentiment scores indicate customer dissatisfaction that should be addressed."
+    },
+    {
+      "id": "GR-005",
+      "name": "Low Customer NPS",
+      "category": "customer_interaction",
+      "severity": "warn",
+      "derived_from": "General Risk Management",
+      "condition": {
+        "metric": "customer.nps",
+        "operator": "lt",
+        "threshold": 30
+      },
+      "reason": "A low Net Promoter Score suggests that improvements in customer experience are needed."
+    },
+    {
+      "id": "GR-006",
+      "name": "High Refund Rate",
+      "category": "product_launch",
+      "severity": "warn",
+      "derived_from": "General Risk Management",
+      "condition": {
+        "metric": "refund_rate",
+        "operator": "gt",
+        "threshold": 0.05
+      },
+      "reason": "High refund rates can indicate product quality or fulfillment issues."
+    },
+    {
+      "id": "GR-007",
+      "name": "Product Health Score Warning",
+      "category": "product_launch",
+      "severity": "warn",
+      "derived_from": "General Risk Management",
+      "condition": {
+        "metric": "health_score",
+        "operator": "lt",
+        "threshold": 70
+      },
+      "reason": "A low health score may suggest potential product or supply chain issues."
+    },
+    {
+      "id": "GR-008",
+      "name": "Inventory Confirmation Risk",
+      "category": "product_launch",
+      "severity": "warn",
+      "derived_from": "General Risk Management",
+      "condition": {
+        "metric": "inventory_confirmed",
+        "operator": "eq",
+        "threshold": false
+      },
+      "reason": "Unconfirmed inventory poses a risk for fulfilling customer orders timely."
+    },
+    {
+      "id": "GR-009",
+      "name": "Cx Risk Score Alert",
+      "category": "customer_interaction",
+      "severity": "warn",
+      "derived_from": "General Risk Management",
+      "condition": {
+        "metric": "cx_risk_score",
+        "operator": "gt",
+        "threshold": 7
+      },
+      "reason": "High customer experience risk scores require attention to prevent dissatisfaction."
+    },
+    {
+      "id": "GR-010",
+      "name": "Ads Status Check",
+      "category": "campaign_launch",
+      "severity": "warn",
+      "derived_from": "Ad Campaign Monitoring",
+      "condition": {
+        "metric": "ads.status",
+        "operator": "eq",
+        "threshold": "inactive"
+      },
+      "reason": "Inactive ad statuses need investigation to prevent loss of potential revenue."
+    },
+    {
+      "id": "GR-011",
+      "name": "Sentiment Mismatch Alert",
+      "category": "customer_interaction",
+      "severity": "warn",
+      "derived_from": "General Risk Management",
+      "condition": {
+        "metric": "sentiment_mismatch",
+        "operator": "gt",
+        "threshold": 2
+      },
+      "reason": "Large mismatches in sentiment analysis can indicate that customer feedback may not be accurately represented."
+    },
+    {
+      "id": "GR-012",
+      "name": "Average Rating Drop",
+      "category": "customer_interaction",
+      "severity": "warn",
+      "derived_from": "Customer Satisfaction Monitoring",
+      "condition": {
+        "metric": "customer.avg_rating",
+        "operator": "lt",
+        "threshold": 3
+      },
+      "reason": "A drop in average customer rating suggests declining satisfaction."
+    }
+  ]
+}

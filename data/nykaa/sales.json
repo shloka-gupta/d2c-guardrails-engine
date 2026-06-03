@@ -1,0 +1,79 @@
+{
+  "brand": "Nykaa",
+  "layer": "sales",
+  "period": "2023-Q3",
+  "data": [
+    {
+      "date": "2023-07-05",
+      "sku": "NykaaMatteLip_Lust",
+      "units_sold": 1400,
+      "revenue_inr": 1260000,
+      "channel": "online",
+      "refunds": 30,
+      "new_customers": 890
+    },
+    {
+      "date": "2023-07-15",
+      "sku": "NykaaSkinShield_Foundation",
+      "units_sold": 850,
+      "revenue_inr": 722500,
+      "channel": "online",
+      "refunds": 20,
+      "new_customers": 650
+    },
+    {
+      "date": "2023-07-20",
+      "sku": "NykaaMascara_Volume",
+      "units_sold": 1100,
+      "revenue_inr": 935000,
+      "channel": "offline",
+      "refunds": 45,
+      "new_customers": 730
+    },
+    {
+      "date": "2023-08-02",
+      "sku": "NykaaKajal_Black",
+      "units_sold": 980,
+      "revenue_inr": 343000,
+      "channel": "online",
+      "refunds": 10,
+      "new_customers": 580
+    },
+    {
+      "date": "2023-08-14",
+      "sku": "NykaaBlush_Duo",
+      "units_sold": 1200,
+      "revenue_inr": 600000,
+      "channel": "offline",
+      "refunds": 25,
+      "new_customers": 770
+    },
+    {
+      "date": "2023-08-27",
+      "sku": "NykaaLipBomb",
+      "units_sold": 750,
+      "revenue_inr": 525000,
+      "channel": "online",
+      "refunds": 150,
+      "new_customers": 920
+    },
+    {
+      "date": "2023-09-12",
+      "sku": "NykaaFoundation_AllDay",
+      "units_sold": 670,
+      "revenue_inr": 670000,
+      "channel": "offline",
+      "refunds": 90,
+      "new_customers": 500
+    },
+    {
+      "date": "2023-09-21",
+      "sku": "NykaaEyeshadow_Palette",
+      "units_sold": 800,
+      "revenue_inr": 720000,
+      "channel": "online",
+      "refunds": 15,
+      "new_customers": 640
+    }
+  ]
+}
