@@ -59,6 +59,7 @@ npm run dev
 ---
 
 ## Data Layers
+Currently:
 
 | Layer | Source | Status |
 |---|---|---|
@@ -66,6 +67,8 @@ npm run dev
 | Sales | Amazon India + Own Site | Synthesized, grounded in HONASA FY23 ₹1,492 Cr revenue |
 | Customers | Amazon Reviews + Support | Synthesized, grounded in public complaint patterns |
 | Ads | Meta Ads + Google Ads | Synthesized, grounded in ~32% marketing spend ratio |
+
+More data layers can be added.
 
 Full provenance documented in `data_provenance.md`.
 
@@ -79,6 +82,8 @@ Full provenance documented in `data_provenance.md`.
 4. **ROAS Divergence** — Platform reported vs true ROAS (revenue ÷ spend)
 5. **Social Lift** — Did high reach actually drive new customers?
 6. **Healthy SKU Signal** — All 4 layers positive — the winning template
+
+7. Possible addition if asked -  Weekend surge
 
 ---
 
@@ -98,7 +103,7 @@ Validator accepts natural language campaign ideas and returns:
 | Tool | Used for |
 |---|---|
 | OpenAI GPT-4o | Intent detection, data synthesis, brand analysis, rule generation, campaign validation |
-| Claude | Architecture thinking, code review, debugging strategy |
+| Claude |  debugging strategy |
 
 ---
 
