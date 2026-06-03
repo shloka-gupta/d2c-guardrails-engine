@@ -25,6 +25,7 @@ export function getLayersForBrand(brand) {
                  f !== "unified_data.json" &&
                  f !== "data_provenance.md")
     .map(f => f.replace(".json", ""));
+    
 }
 
 export function layersChanged(brand) {

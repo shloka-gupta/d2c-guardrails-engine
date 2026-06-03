@@ -127,6 +127,8 @@ customer.review_sentiment, ads.roas, ads.status, refund_rate, sentiment_mismatch
 health_score, social.reach, social_to_acq_rate, platform_roas_to_true_roas_ratio,
 inventory_confirmed`
     },
+    
+
     {
       role: "user",
       content: `Brand: ${brand}\n\nIMPORTANT: The "brand" field must be exactly "${brand}".\n\nHere are representative findings (sampled):\n${JSON.stringify({

@@ -1,6 +1,27 @@
 /**
  * correlate.js — Cross-layer Correlation Agent + AI Brand Analysis
  */
+/*
+FLOW:
+
+Load unified_data.json
+        ↓
+Calculate baselines
+        ↓
+Run 6 checks
+        ↓
+Generate findings
+        ↓
+Save findings.json
+        ↓
+Send findings to GPT
+        ↓
+Save brand_analysis.md
+*/
+
+
+
+
 import dotenv from "dotenv";
 dotenv.config();
 import fetch from "node-fetch";
